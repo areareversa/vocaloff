@@ -1,0 +1,13 @@
+{
+  "framework": "next",
+  "functionTimeout": 60,
+  "routes": {
+    "/api/auth/(.*)": "/api/auth/$1",
+    "/upload": "/upload",
+    "/player": "/player",
+    "/": "/"
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
