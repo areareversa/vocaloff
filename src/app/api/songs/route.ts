@@ -10,7 +10,7 @@ export async function POST(request: Request) {
       headers: await request.headers,
     });
     if (!session?.user?.id) {
-      return NextResponse.json({ error: "Nǜo autenticado" }, { status: 401 });
+      return NextResponse.json({ error: "Não autenticado" }, { status: 401 });
     }
     const body = await request.json();
     const { title, artist, durationSec, bpm, keyNote, coverUrl, sourceMime } = body;
@@ -19,7 +19,7 @@ export async function POST(request: Request) {
     await db.insert(schema.songs).values({
       id,
       userId: session.user.id,
-      title: title ?? "Sem t��tulo",
+      title: title ?? "Sem título",
       artist: artist,
       durationSec: durationSec ?? null,
       bpm: bpm ?? null,

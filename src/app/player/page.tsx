@@ -67,7 +67,7 @@ export default function PlayerPage() {
                 max={2}
                 step={0.1}
                 value={speed}
-                onChange={(e) => setSpeedNumber(parseFloat(e.target.value))}
+                onChange={(e) => setSpeedValue(parseFloat(e.target.value))}
                 className="w-32 rounded-xl appearance-none bg-primary/20 p-2"
               />
               <span className="text-xs text-muted">{speed.toFixed(1)}×</span>
@@ -90,7 +90,7 @@ export default function PlayerPage() {
               max={1}
               step={0.1}
               value={volume}
-              onChange={(e) => setVolumeNumber(parseFloat(e.target.value))}
+              onChange={(e) => setVolumeValue(parseFloat(e.target.value))}
               className="w-full rounded-xl appearance-none bg-primary/20 p-2"
             />
           </div>
@@ -116,19 +116,13 @@ export default function PlayerPage() {
               style={{ opacity: isPlaying ? 1 : 0.5 }}
             />
             {!isPlaying && (
-              <p className="mt-2 text-xs text-muted">Arraste um stem acima ou carregue uma música para tocar.</p>
+              <p className="mt-2 text-xs text-muted">
+                Arraste um arquivo ou cole link para tocar.
+              </p>
             )}
           </div>
         </div>
       </Suspense>
     </main>
   );
-}
-
-// helpers outside component to avoid re-render noise
-function setSpeedNumber(v: number) {
-  // noop; state handled in component
-}
-function setVolumeNumber(v: number) {
-  // noop
 }

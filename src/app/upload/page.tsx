@@ -1,7 +1,7 @@
 "use client";
 
 import { Suspense } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useRef } from "react";
 import Link from "next/link";
 import { AudioLines, Loader2, FileText, Music2 } from "lucide-react";
@@ -12,6 +12,7 @@ export default function UploadPage() {
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [source, setSource] = useState("upload");
   const titleRef = useRef<HTMLInputElement>(null);
   const artistRef = useRef<HTMLInputElement>(null);
 
@@ -41,7 +42,7 @@ export default function UploadPage() {
       });
       if (!res.ok) throw new Error("Falha ao criar música");
       const data = await res.json();
-      router.push(`/success?songId=${data.id}`);
+      router.push(`/success?songId=${data.id}&mode=upload`);
     } catch (err: any) {
       setError(err?.message ?? "Erro ao criar música");
     } finally {
