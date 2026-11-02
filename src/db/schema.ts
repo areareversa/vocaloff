@@ -133,10 +133,26 @@ export const songs = pgTable(
     sourceBytes: integer("source_bytes"),
     status: songStatus("status").notNull().default("uploading"),
     isPublic: boolean("is_public").notNull().default(false),
+    /** Onde o áudio vive: pasta do dispositivo, IndexedDB ou URL remota. */
+    storageType: text("storage_type").notNull().default("device"),
+    /** Caminho relativo gravado no banco — nunca o arquivo em si. */
+    storagePath: text("storage_path"),
+    /** Nome da pasta raiz escolhida pelo usuário (ex.: "VocalOff"). */
+    folderName: text("folder_name"),
+    /** URL de origem (YouTube, catálogo público). */
+    sourceUrl: text("source_url"),
+    /** Licença e crédito quando a faixa vem de catálogo público. */
+    license: text("license"),
+    attribution: text("attribution"),
+    catalogId: text("catalog_id"),
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
     updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
   },
-  (t) => [index("songs_user_id_idx").on(t.userId), index("songs_status_idx").on(t.status)],
+  (t) => [
+    index("songs_user_id_idx").on(t.userId),
+    index("songs_status_idx").on(t.status),
+    index("songs_catalog_id_idx").on(t.catalogId),
+  ],
 );
 
 export const stems = pgTable(
@@ -151,6 +167,8 @@ export const stems = pgTable(
     kind: stemKind("kind").notNull(),
     label: text("label").notNull(),
     storageKey: text("storage_key").notNull(),
+    storageType: text("storage_type").notNull().default("device"),
+    mime: text("mime"),
     durationSec: real("duration_sec"),
     loudnessLufs: real("loudness_lufs"),
     bytes: integer("bytes"),
@@ -326,3 +344,6 @@ export type Stem = typeof stems.$inferSelect;
 export type SeparationJob = typeof separationJobs.$inferSelect;
 export type Setlist = typeof setlists.$inferSelect;
 export type PlanCode = (typeof planCode.enumValues)[number];
+export type SongStatus = (typeof songStatus.enumValues)[number];
+export type StemKind = (typeof stemKind.enumValues)[number];
+export type SongWithStems = Song & { stems: Stem[] };

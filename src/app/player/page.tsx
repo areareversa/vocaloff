@@ -1,128 +1,518 @@
 "use client";
 
-import { Suspense } from "react";
-import { useState, useEffect, useRef } from "react";
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { AudioLines, SlidersHorizontal, Play, Pause, FastForward, StepForward, Volume2, Speaker } from "lucide-react";
+import { useSearchParams } from "next/navigation";
+import {
+  AudioLines,
+  AlertCircle,
+  FolderOpen,
+  Loader2,
+  Music2,
+  Pause,
+  Play,
+  SkipBack,
+  Volume2,
+  VolumeX,
+  MonitorPlay,
+} from "lucide-react";
+import {
+  ensureFolderPermission,
+  readBlobUrl,
+  songPath,
+} from "@/lib/local-store";
+import { cn, formatDuration } from "@/lib/utils";
 
-export default function PlayerPage() {
-  const [src, setSrc] = useState<string | null>(null);
+interface Stem {
+  id: string;
+  kind: string;
+  label: string;
+  storageKey: string;
+  storageType: string;
+  mime: string | null;
+}
+
+interface Song {
+  id: string;
+  title: string;
+  artist: string | null;
+  durationSec: number | null;
+  coverUrl: string | null;
+  status: string;
+  storageType: string;
+  storagePath: string | null;
+  sourceUrl: string | null;
+  license: string | null;
+  attribution: string | null;
+  stems: Stem[];
+}
+
+interface Channel {
+  id: string;
+  label: string;
+  kind: string;
+  path: string;
+}
+
+function youtubeId(url: string | null) {
+  if (!url) return null;
+  const match = /(?:youtu\.be\/|v=|shorts\/|embed\/|live\/)([a-zA-Z0-9_-]{11})/.exec(url);
+  return match ? match[1] : null;
+}
+
+function PlayerInner() {
+  const params = useSearchParams();
+  const songId = params.get("id");
+
+  const [songs, setSongs] = useState<Song[] | null>(null);
+  const [song, setSong] = useState<Song | null>(null);
+  const [urls, setUrls] = useState<Record<string, string>>({});
+  const [missing, setMissing] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [playing, setPlaying] = useState(false);
+  const [time, setTime] = useState(0);
+  const [duration, setDuration] = useState(0);
   const [speed, setSpeed] = useState(1);
-  const [volume, setVolume] = useState(1);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef<HTMLAudioElement>(null);
+  const [mix, setMix] = useState<Record<string, { volume: number; muted: boolean }>>({});
+  const [solo, setSolo] = useState<string | null>(null);
 
-  // Mock stem list
-  const stems = [
-    { kind: "vocals", label: "Vocal", enabled: true },
-    { kind: "drums", label: "Bateria", enabled: true },
-    { kind: "bass", label: "Baixo", enabled: true },
-    { kind: "other", label: "Outros", enabled: true },
-  ];
+  const audioRefs = useRef<Map<string, HTMLAudioElement>>(new Map());
 
   useEffect(() => {
-    if (!src || !audioRef.current) return;
-    const audio = audioRef.current;
-    audio.src = src;
-    audio.playbackRate = speed;
-    audio.volume = volume;
-    audio.oncanplaythrough = () => {
-      audio.play().catch(() => {/* user gesture needed */});
-      setIsPlaying(true);
+    let cancelled = false;
+    fetch("/api/songs", { credentials: "include" })
+      .then(async (res) => {
+        if (res.status === 401) throw new Error("Entre na sua conta para abrir o player.");
+        if (!res.ok) throw new Error("Não foi possível carregar a biblioteca.");
+        const data = (await res.json()) as { songs: Song[] };
+        if (cancelled) return;
+        setSongs(data.songs);
+        const selected = songId
+          ? data.songs.find((item) => item.id === songId) ?? null
+          : data.songs[0] ?? null;
+        setSong(selected);
+      })
+      .catch((err) => !cancelled && setError(err instanceof Error ? err.message : "Erro ao carregar."))
+      .finally(() => !cancelled && setLoading(false));
+    return () => {
+      cancelled = true;
     };
-  }, [src, speed, volume]);
+  }, [songId]);
 
-  const togglePlay = () => {
-    setIsPlaying((p) => {
-      const next = !p;
-      if (audioRef.current) audioRef.current[next ? "play" : "pause"]();
-      return next;
+  const channels: Channel[] = useMemo(() => {
+    if (!song) return [];
+    if (song.stems.length > 0) {
+      return song.stems.map((stem) => ({
+        id: stem.id,
+        label: stem.label,
+        kind: stem.kind,
+        path: stem.storageKey,
+      }));
+    }
+    return song.storagePath
+      ? [{ id: "main", label: "Música completa", kind: "other", path: song.storagePath }]
+      : [];
+  }, [song]);
+
+  const resolve = useCallback(async (requestPermission: boolean) => {
+    if (!song) return;
+    if (requestPermission) await ensureFolderPermission();
+    const entries = await Promise.all(
+      channels.map(async (channel) => {
+        const url = await readBlobUrl(channel.path);
+        return [channel.id, url] as const;
+      }),
+    );
+    const next: Record<string, string> = {};
+    for (const [id, url] of entries) {
+      if (url) next[id] = url;
+    }
+    setUrls(next);
+    setMissing(entries.some(([, url]) => !url));
+    setMix((current) => {
+      const updated = { ...current };
+      for (const channel of channels) {
+        updated[channel.id] ??= { volume: 1, muted: false };
+      }
+      return updated;
     });
-  };
+  }, [channels, song]);
 
-  const setSpeedValue = (v: number) => {
-    setSpeed(Math.max(0.5, Math.min(2, v)));
-    if (audioRef.current) audioRef.current.playbackRate = speed;
-  };
+  useEffect(() => {
+    if (!song) return;
+    void resolve(false);
+    return () => {
+      for (const url of Object.values(urls)) URL.revokeObjectURL(url);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [song?.id, channels.length]);
 
-  const setVolumeValue = (v: number) => {
-    setVolume(Math.max(0, Math.min(1, v)));
-    if (audioRef.current) audioRef.current.volume = volume;
-  };
+  useEffect(() => {
+    for (const [id, el] of audioRefs.current) {
+      const settings = mix[id];
+      if (settings) {
+        el.volume = settings.volume;
+        el.muted = settings.muted || (solo !== null && solo !== id);
+      }
+      el.playbackRate = speed;
+    }
+  }, [mix, solo, speed, urls]);
+
+  const elements = () => [...audioRefs.current.values()].filter(Boolean);
+
+  const toggle = useCallback(() => {
+    const els = elements();
+    if (!els.length) return;
+    if (playing) {
+      els.forEach((el) => el.pause());
+      setPlaying(false);
+      return;
+    }
+    setPlaying(true);
+    els.forEach((el) => {
+      void el.play().catch(() => {
+        setPlaying(false);
+        setError("O navegador bloqueou o áudio. Toque em play novamente.");
+      });
+    });
+  }, [playing]);
+
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.code === "Space" && !(event.target instanceof HTMLInputElement)) {
+        event.preventDefault();
+        toggle();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [toggle]);
+
+  function seek(value: number) {
+    for (const el of elements()) el.currentTime = value;
+    setTime(value);
+  }
+
+  const ytId = youtubeId(song?.sourceUrl ?? null);
+  const hasAudio = channels.length > 0 && Object.keys(urls).length === channels.length;
+
+  if (loading) {
+    return (
+      <main className="flex min-h-screen items-center justify-center">
+        <Loader2 className="h-6 w-6 animate-spin text-primary" />
+      </main>
+    );
+  }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center px-5 py-12">
-      <Suspense fallback={<div className="h-96 w-full max-w-sm animate-pulse rounded-2xl bg-surface" />}>
-        <div className="rounded-2xl border border-border bg-surface p-8 max-w-2xl w-full">
-          <AudioLines className="h-6 w-6 text-primary mb-4 block mx-auto" />
-          <h2 className="text-2xl font-black tracking-tight mb-6">Player de Stems</h2>
+    <main className="mx-auto w-full max-w-4xl px-5 py-8">
+      <div className="mb-6 flex items-center justify-between">
+        <Link href="/app" className="flex items-center gap-2 font-black tracking-tight">
+          <AudioLines className="h-5 w-5 text-primary" />
+          VocalOff
+        </Link>
+        <Link
+          href="/app"
+          className="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground"
+        >
+          Minha biblioteca
+        </Link>
+      </div>
 
-          {/* controles */}
-          <div className="mb-6 flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <span className="text-sm text-muted">Velocidade</span>
-              <input
-                type="range"
-                min={0.5}
-                max={2}
-                step={0.1}
-                value={speed}
-                onChange={(e) => setSpeedValue(parseFloat(e.target.value))}
-                className="w-32 rounded-xl appearance-none bg-primary/20 p-2"
-              />
-              <span className="text-xs text-muted">{speed.toFixed(1)}×</span>
-            </div>
-            <div className="flex items-center gap-2">
-              {isPlaying ? (
-                <Pause className="h-5 w-5 text-primary" onClick={togglePlay} />
-              ) : (
-                <Play className="h-5 w-5 text-primary" onClick={togglePlay} />
-              )}
-              <span className="text-xs text-muted">{isPlaying ? "Pause" : "Play"}</span>
-            </div>
-          </div>
-
-          <div className="mb-6">
-            <label className="block text-sm font-semibold text-muted mb-1">Volume</label>
-            <input
-              type="range"
-              min={0}
-              max={1}
-              step={0.1}
-              value={volume}
-              onChange={(e) => setVolumeValue(parseFloat(e.target.value))}
-              className="w-full rounded-xl appearance-none bg-primary/20 p-2"
-            />
-          </div>
-
-          {/* stems list */}
-          <div className="mt-8 space-y-2 text-sm">
-            {stems.map((s) => (
-              <div key={s.kind} className="flex items-center gap-3">
-                <span className={s.enabled ? "text-foreground" : "text-muted/50"}>
-                  {s.label}
-                </span>
-                <span className={s.enabled ? "text-primary" : "text-muted/50"}>✓</span>
-              </div>
-            ))}
-          </div>
-
-          {/* audio player */}
-          <div className="mt-8 rounded-xl border border-border bg-background p-4">
-            <audio
-              ref={audioRef}
-              className="w-full"
-              controls={isPlaying}
-              style={{ opacity: isPlaying ? 1 : 0.5 }}
-            />
-            {!isPlaying && (
-              <p className="mt-2 text-xs text-muted">
-                Arraste um arquivo ou cole link para tocar.
-              </p>
-            )}
-          </div>
+      {error && (
+        <div className="mb-4 flex items-start gap-2 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-300">
+          <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" /> {error}
         </div>
-      </Suspense>
+      )}
+
+      {!song ? (
+        <div className="rounded-2xl border border-dashed border-border bg-surface/50 px-6 py-14 text-center">
+          <Music2 className="mx-auto h-8 w-8 text-muted" />
+          <h1 className="mt-4 text-xl font-bold">Nenhuma música selecionada</h1>
+          <p className="mt-1 text-sm text-muted">
+            {songs && songs.length > 0
+              ? "Escolha uma música da sua biblioteca."
+              : "Sua biblioteca está vazia. Envie um arquivo ou baixe uma faixa pública."}
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-2">
+            <Link
+              href="/upload"
+              className="rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground"
+            >
+              Enviar música
+            </Link>
+            <Link
+              href="/library"
+              className="rounded-full border border-border px-5 py-2.5 text-sm font-semibold"
+            >
+              Biblioteca pública
+            </Link>
+          </div>
+          {songs && songs.length > 0 && (
+            <ul className="mx-auto mt-8 max-w-md space-y-2 text-left">
+              {songs.slice(0, 10).map((item) => (
+                <li key={item.id}>
+                  <Link
+                    href={`/player?id=${item.id}`}
+                    className="flex items-center justify-between rounded-xl border border-border bg-surface px-4 py-2.5 text-sm hover:border-primary/40"
+                  >
+                    <span className="truncate">{item.title}</span>
+                    <span className="text-xs text-muted">{item.artist ?? "—"}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ) : (
+        <div className="rounded-2xl border border-border bg-surface p-6">
+          <div className="flex flex-wrap items-start gap-4">
+            <div className="h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-surface-2">
+              {song.coverUrl ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={song.coverUrl} alt="" className="h-full w-full object-cover" />
+              ) : (
+                <Music2 className="m-auto h-6 w-6 text-muted" />
+              )}
+            </div>
+            <div className="min-w-0 flex-1">
+              <h1 className="truncate text-2xl font-black tracking-tight">{song.title}</h1>
+              <p className="text-sm text-muted">{song.artist ?? "Artista desconhecido"}</p>
+              {song.attribution && (
+                <p className="mt-1 text-[11px] text-muted/80">{song.attribution}</p>
+              )}
+            </div>
+            <span className="rounded-full bg-white/5 px-2.5 py-1 text-[10px] font-bold uppercase text-muted">
+              {song.stems.length > 0 ? `${song.stems.length} pistas` : "Mix completa"}
+            </span>
+          </div>
+
+          {!song.storagePath && (
+            <div className="mt-5 rounded-xl border border-border bg-background p-4">
+              <p className="flex items-center gap-2 text-sm font-semibold">
+                <MonitorPlay className="h-4 w-4 text-red-400" /> Esta música é só uma referência do YouTube
+              </p>
+              <p className="mt-1 text-xs text-muted">
+                O YouTube não fornece o áudio para separação. Envie o arquivo de áudio para liberar o
+                player:{" "}
+                <Link href="/upload" className="text-primary underline">
+                  anexar áudio
+                </Link>
+                .
+              </p>
+              {ytId && (
+                <div className="mt-3 aspect-video w-full overflow-hidden rounded-lg">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${ytId}`}
+                    title={song.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="h-full w-full"
+                  />
+                </div>
+              )}
+            </div>
+          )}
+
+          {song.storagePath && missing && (
+            <div className="mt-5 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4">
+              <p className="text-sm font-semibold text-amber-200">Precisamos de acesso à pasta</p>
+              <p className="mt-1 text-xs text-amber-200/80">
+                O navegador pede a permissão de novo depois de recarregar.
+              </p>
+              <button
+                type="button"
+                onClick={() => void resolve(true)}
+                className="mt-3 flex items-center gap-2 rounded-full bg-amber-400 px-4 py-2 text-xs font-bold text-black"
+              >
+                <FolderOpen className="h-3.5 w-3.5" /> Liberar acesso à pasta
+              </button>
+            </div>
+          )}
+
+          {song.storagePath && (
+            <>
+              <div className="mt-6">
+                <input
+                  type="range"
+                  min={0}
+                  max={duration || song.durationSec || 1}
+                  step={0.1}
+                  value={Math.min(time, duration || song.durationSec || 1)}
+                  onChange={(event) => seek(Number(event.target.value))}
+                  className="w-full accent-[color:var(--primary)]"
+                />
+                <div className="mt-1 flex justify-between text-[11px] text-muted">
+                  <span>{formatDuration(time)}</span>
+                  <span>{formatDuration(duration || song.durationSec)}</span>
+                </div>
+              </div>
+
+              <div className="mt-4 flex flex-wrap items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => seek(0)}
+                  className="rounded-full border border-border p-2 text-muted hover:text-foreground"
+                  aria-label="Voltar ao início"
+                >
+                  <SkipBack className="h-4 w-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={toggle}
+                  disabled={!hasAudio}
+                  className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground disabled:opacity-50"
+                >
+                  {playing ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5" />}
+                </button>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-muted">Velocidade</span>
+                  <input
+                    type="range"
+                    min={0.5}
+                    max={1.5}
+                    step={0.05}
+                    value={speed}
+                    onChange={(event) => setSpeed(Number(event.target.value))}
+                    className="w-28 accent-[color:var(--primary)]"
+                  />
+                  <span className="w-10 text-xs text-muted">{speed.toFixed(2)}×</span>
+                </div>
+              </div>
+
+              <div className="mt-6 space-y-2">
+                <div className="flex items-center justify-between">
+                  <h2 className="text-sm font-bold">
+                    {song.stems.length > 0 ? "Mixer por pista" : "Pista única"}
+                  </h2>
+                  {solo && (
+                    <button
+                      type="button"
+                      onClick={() => setSolo(null)}
+                      className="text-[11px] font-semibold text-primary"
+                    >
+                      limpar solo
+                    </button>
+                  )}
+                </div>
+
+                {channels.map((channel) => {
+                  const settings = mix[channel.id] ?? { volume: 1, muted: false };
+                  const available = Boolean(urls[channel.id]);
+                  return (
+                    <div
+                      key={channel.id}
+                      className={cn(
+                        "flex flex-wrap items-center gap-2 rounded-xl border border-border bg-background px-3 py-2",
+                        !available && "opacity-50",
+                      )}
+                    >
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setMix((current) => ({
+                            ...current,
+                            [channel.id]: { ...settings, muted: !settings.muted },
+                          }))
+                        }
+                        className="rounded p-1 text-muted hover:text-foreground"
+                        aria-label={`Mudo em ${channel.label}`}
+                      >
+                        {settings.muted ? (
+                          <VolumeX className="h-4 w-4 text-red-300" />
+                        ) : (
+                          <Volume2 className="h-4 w-4" />
+                        )}
+                      </button>
+                      <span className="w-28 truncate text-xs font-semibold">{channel.label}</span>
+                      <input
+                        type="range"
+                        min={0}
+                        max={1}
+                        step={0.01}
+                        value={settings.volume}
+                        onChange={(event) =>
+                          setMix((current) => ({
+                            ...current,
+                            [channel.id]: { ...settings, volume: Number(event.target.value) },
+                          }))
+                        }
+                        className="min-w-[100px] flex-1 accent-[color:var(--primary)]"
+                      />
+                      <button
+                        type="button"
+                        onClick={() => setSolo((current) => (current === channel.id ? null : channel.id))}
+                        className={cn(
+                          "rounded px-2 py-0.5 text-[10px] font-bold",
+                          solo === channel.id
+                            ? "bg-primary text-primary-foreground"
+                            : "bg-white/5 text-muted hover:text-foreground",
+                        )}
+                      >
+                        SOLO
+                      </button>
+                      <span className="w-8 text-right text-[10px] text-muted">
+                        {Math.round(settings.volume * 100)}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {channels.map((channel) => (
+                <audio
+                  key={`${channel.id}-${urls[channel.id] ?? "pending"}`}
+                  src={urls[channel.id]}
+                  preload="auto"
+                  className="hidden"
+                  ref={(el) => {
+                    if (el) audioRefs.current.set(channel.id, el);
+                    else audioRefs.current.delete(channel.id);
+                  }}
+                  onLoadedMetadata={(event) => {
+                    if (channel.id === channels[0]?.id) {
+                      setDuration(event.currentTarget.duration || 0);
+                    }
+                  }}
+                  onTimeUpdate={(event) => {
+                    if (channel.id === channels[0]?.id) {
+                      setTime(event.currentTarget.currentTime);
+                    }
+                  }}
+                  onEnded={() => {
+                    if (channel.id === channels[0]?.id) setPlaying(false);
+                  }}
+                />
+              ))}
+
+              <p className="mt-6 text-[11px] leading-relaxed text-muted">
+                O áudio é lido do seu dispositivo. Nada é enviado ao servidor. Para separar uma música
+                nova em vocais/bateria/baixo, é preciso um worker de IA — veja{" "}
+                <Link href="/upload" className="text-primary underline">
+                  como enviar
+                </Link>
+                .
+              </p>
+            </>
+          )}
+        </div>
+      )}
     </main>
+  );
+}
+
+export default function PlayerPage() {
+  return (
+    <Suspense
+      fallback={
+        <main className="flex min-h-screen items-center justify-center">
+          <Loader2 className="h-6 w-6 animate-spin text-primary" />
+        </main>
+      }
+    >
+      <PlayerInner />
+    </Suspense>
   );
 }

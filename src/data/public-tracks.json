@@ -1,0 +1,6284 @@
+{
+  "generatedAt": "2026-11-02T11:59:14.525Z",
+  "source": "ccMixter (ccmixter.org)",
+  "licenseFilter": "Attribution / Attribution Share Alike / CC0 / Public Domain",
+  "tracks": [
+    {
+      "id": "ccm-22364",
+      "title": "Persephone",
+      "artist": "Madam Snowflake",
+      "durationSec": 238,
+      "bpm": 100,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "secret_summer_09",
+        "featured",
+        "in_video",
+        "in_remix",
+        "in_web"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/22364",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_Persephone.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9569034,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Lead Vox",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Persephone_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Back Vox",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Persephone_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "BVox Last Chorus",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Persephone_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Piano",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Persephone_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Loop",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Persephone_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-30344",
+      "title": "Art Now",
+      "artist": "Alex",
+      "durationSec": 241,
+      "bpm": 125,
+      "genre": "emergence_artlab",
+      "tags": [
+        "emergence_artlab",
+        "in_video",
+        "in_web",
+        "in_podcast",
+        "bpm_125_130",
+        "in_soundcloud"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/30344",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9649677,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "bass",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_11.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "drums",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "fx synth chop",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pad",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth hits",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth1",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth2",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth3",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_7.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth4",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Art_Now_8.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-33628",
+      "title": "In Peace",
+      "artist": "Madam Snowflake",
+      "durationSec": 236,
+      "bpm": 118,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "acappella",
+        "acapella",
+        "melody",
+        "featured",
+        "in_remix"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/33628",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_In_Peace.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7555911,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "flac lead pell",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_In_Peace.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Bvox dry stereo",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_In_Peace_2.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "piano - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_In_Peace_3.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-24553",
+      "title": "Harmony",
+      "artist": "Madam Snowflake",
+      "durationSec": 227,
+      "bpm": 118,
+      "genre": "reduce_reuse_remix",
+      "tags": [
+        "reduce_reuse_remix",
+        "acappella",
+        "sustainability",
+        "in_video",
+        "featured",
+        "in_podcast"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/24553",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_Harmony_2.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3638797,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Flac Intro BVox",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Harmony_2.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Stereo Flac Piano",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Harmony.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Flac Main BVox",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Harmony_1.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-29407",
+      "title": "I Miss You",
+      "artist": "Madam Snowflake",
+      "durationSec": 209,
+      "bpm": 125,
+      "genre": "acappella",
+      "tags": [
+        "acappella",
+        "featured",
+        "in_remix",
+        "strike_the_root",
+        "in_video",
+        "bpm_125_130"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/29407",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3346226,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Pella - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "BVox - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You_1.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Piano Stereo - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You_2.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-31670",
+      "title": "Start Again",
+      "artist": "Alex",
+      "durationSec": 248,
+      "bpm": 80,
+      "genre": "strike_the_root",
+      "tags": [
+        "strike_the_root",
+        "corruption",
+        "editorial_pick",
+        "in_video",
+        "in_podcast",
+        "bpm_080_085"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/31670",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Start_Again.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9906722,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "drums",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Start_Again_2.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-29523",
+      "title": "Straight to the Light",
+      "artist": "Madam Snowflake",
+      "durationSec": 219,
+      "bpm": 60,
+      "genre": "acappella",
+      "tags": [
+        "acappella",
+        "acapella",
+        "by_and_by",
+        "in_remix",
+        "featured",
+        "in_video"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/29523",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_Straight_to_the_Light.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3507140,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Pella - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Straight_to_the_Light.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Stereo Piano - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Straight_to_the_Light_2.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-30239",
+      "title": "Emerge In Love",
+      "artist": "Alex",
+      "durationSec": 232,
+      "bpm": 125,
+      "genre": "emergence_artlab",
+      "tags": [
+        "emergence_artlab",
+        "in_video",
+        "in_podcast",
+        "bpm_125_130",
+        "in_remix",
+        "ccplus_stem"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/30239",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9298591,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "bass",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_12.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "noise fx",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pad1",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pad2",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "percussion all",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "piano",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth1",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth2",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_7.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth3",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_8.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth4",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_In_Love_9.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-30513",
+      "title": "The New Music",
+      "artist": "Alex",
+      "durationSec": 216,
+      "bpm": 120,
+      "genre": "emergence_artlab",
+      "tags": [
+        "emergence_artlab",
+        "bpm_120_125",
+        "editorial_pick",
+        "in_video",
+        "in_podcast",
+        "in_remix"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/30513",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_The_New_Music.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8646575,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "drums+synthbass",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_The_New_Music_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "gated pad",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_The_New_Music_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "strings+FX",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_The_New_Music_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth1",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_The_New_Music_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth2",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_The_New_Music_6.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-31629",
+      "title": "Give it Up (Start Again)",
+      "artist": "Madam Snowflake",
+      "durationSec": 259,
+      "bpm": 80,
+      "genre": "strike_the_root",
+      "tags": [
+        "strike_the_root",
+        "corruption",
+        "editorial_pick",
+        "in_remix",
+        "bpm_080_085",
+        "in_video"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/31629",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_Give_it_Up_(Start_Again).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4149126,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Lead Vox - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Give_it_Up_(Start_Again).flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Bvox1 - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Give_it_Up_(Start_Again)_3.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "BVox2 - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Give_it_Up_(Start_Again)_4.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "BVox 3 - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Give_it_Up_(Start_Again)_1.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-29878",
+      "title": "Hot Core (down below)",
+      "artist": "Madam Snowflake",
+      "durationSec": 303,
+      "bpm": 136,
+      "genre": "by_and_by",
+      "tags": [
+        "by_and_by",
+        "bpm_135_140",
+        "in_video",
+        "in_remix",
+        "ccplus_stem",
+        "acappella"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/29878",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4845446,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Lead Pella flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below).flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Stereo Piano - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below)_1.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Clean Lead Pella flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below)_2.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "BVox - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below)_3.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Bass flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below)_4.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Strings - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below)_5.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "keyboards - flac",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below)_7.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "hard core pell",
+          "url": "https://ccmixter.org/content/snowflake/snowflake_-_Hot_Core_(down_below)_8.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-43098",
+      "title": "Drive",
+      "artist": "Alex",
+      "durationSec": 191,
+      "bpm": 165,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "bpm_165_170",
+        "in_podcast",
+        "sample",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/43098",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Drive.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7627800,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "bass,synths & fx",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Drive_2.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-27917",
+      "title": "The Remixin' Blues",
+      "artist": "Admiral Bob",
+      "durationSec": 128,
+      "bpm": 145,
+      "genre": "Freedom_to_Share",
+      "tags": [
+        "Freedom_to_Share",
+        "stage_one",
+        "ASCAP",
+        "Creative_Commons",
+        "acapella",
+        "acappella"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/27917",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3081240,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "guitar",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-35429",
+      "title": "Gonna Love You More",
+      "artist": "Ivan Chew",
+      "durationSec": 259,
+      "bpm": 75,
+      "genre": "bpm_075_080",
+      "tags": [
+        "bpm_075_080",
+        "editorial_pick",
+        "featured",
+        "melody",
+        "in_video",
+        "in_remix"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/ramblinglibrarian/35429",
+      "audioUrl": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Gonna_Love_You_More.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4959143,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "All vocals - wet",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Gonna_Love_You_More_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Main vocal - dry",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Gonna_Love_You_More_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "BackingVocal 1 - dry",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Gonna_Love_You_More_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "BackingVocal 2 - dry",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Gonna_Love_You_More_4.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-55540",
+      "title": "Altar",
+      "artist": "Zutsuri",
+      "durationSec": 143,
+      "bpm": 126,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_125_130",
+        "featured",
+        "in_video",
+        "in_album",
+        "acappella"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Zutsuri/55540",
+      "audioUrl": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Altar.flac",
+      "mime": "audio/x-flac",
+      "bytes": 15420010,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "\"Altar\" Main Vox",
+          "url": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Altar_8.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "\"Altar\" Outro Backup Vox",
+          "url": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Altar_9.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "\"Altar\" Reverse Lead Synt",
+          "url": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Altar_3.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "\"Altar\" Gritty Bass Synth",
+          "url": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Altar_4.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "\"Altar\" Spacey Synth Pad",
+          "url": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Altar_6.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-30132",
+      "title": "Emerge",
+      "artist": "Alex",
+      "durationSec": 226,
+      "bpm": 120,
+      "genre": "emergence_artlab",
+      "tags": [
+        "emergence_artlab",
+        "sample",
+        "samples",
+        "bpm_120_125",
+        "in_video",
+        "in_podcast"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/30132",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7245785,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "percussion",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_12.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "bass1",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "bass2",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "bass3",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "guitar",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pad1",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pad2",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "rhodes1",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_7.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "rhodes2",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_8.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "rhodes3",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Emerge_9.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-25202",
+      "title": "Dollheads",
+      "artist": "Ivan Chew",
+      "durationSec": 240,
+      "bpm": 59,
+      "genre": "bpm_below_60",
+      "tags": [
+        "bpm_below_60",
+        "how_i_did_it",
+        "in_video",
+        "sample",
+        "attribution",
+        "VBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/ramblinglibrarian/25202",
+      "audioUrl": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Dollheads.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4354534,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Drums, Bass, Rhythm Guita",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Dollheads_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Lead Guitars",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Dollheads_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-33469",
+      "title": "H2O instrumental",
+      "artist": "airtone",
+      "durationSec": 372,
+      "bpm": 80,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "bpm_080_085",
+        "in_video",
+        "in_remix",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/33469",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7445465,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "drums",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "piano2",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "piano1",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "guitar3",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "guitar2",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental_8.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "bass",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental_9.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "guitar1",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_H2O_instrumental_11.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-34432",
+      "title": "How Do You Feel About That? (guitar instrumental)",
+      "artist": "Ivan Chew",
+      "durationSec": 258,
+      "bpm": 55,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2011",
+        "how_i_did_it",
+        "bpm_below_60",
+        "in_video",
+        "in_podcast"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/ramblinglibrarian/34432",
+      "audioUrl": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_How_Do_You_Feel_About_That_(guitar_instrumental).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5577710,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "Remixed Guitars",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_How_Do_You_Feel_About_That_(guitar_instrumental)_2.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-43002",
+      "title": "Sudden Goodbye",
+      "artist": "Alex",
+      "durationSec": 184,
+      "bpm": null,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "summer",
+        "2013",
+        "summer_2013",
+        "bpm_090_095",
+        "editorial_pick"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/43002",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Sudden_Goodbye.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7377024,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "additions140bpm",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Sudden_Goodbye_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-33347",
+      "title": "Longing for Tumbleweeds",
+      "artist": "Admiral Bob",
+      "durationSec": 115,
+      "bpm": 80,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "bpm_080_085",
+        "in_video",
+        "in_podcast",
+        "sample",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/33347",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Longing_for_Tumbleweeds.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2756120,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "rhodes (midi)",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Longing_for_Tumbleweeds.mid",
+          "mime": "audio/midi"
+        }
+      ]
+    },
+    {
+      "id": "ccm-35789",
+      "title": "Dream On This Side (instrumental)",
+      "artist": "Ivan Chew",
+      "durationSec": 318,
+      "bpm": 95,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "spring_2012",
+        "how_i_did_it",
+        "bpm_095_100",
+        "in_video",
+        "ccplus_stem"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/ramblinglibrarian/35789",
+      "audioUrl": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Dream_On_This_Side_(instrumental).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6121831,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Lead Guitar",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Dream_On_This_Side_(instrumental)_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Muted Guitar",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Dream_On_This_Side_(instrumental)_4.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-33455",
+      "title": "Nanyang Journey (Instrumental)",
+      "artist": "Ivan Chew",
+      "durationSec": 238,
+      "bpm": 120,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "editorial_pick",
+        "how_i_did_it",
+        "in_video",
+        "in_remix",
+        "in_web"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/ramblinglibrarian/33455",
+      "audioUrl": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Nanyang_Journey_(Instrumental).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4740938,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "Guitars - distortion",
+          "url": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_Nanyang_Journey_(Instrumental)_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-4938",
+      "title": "slumlord",
+      "artist": "lo tag blanco",
+      "durationSec": 199,
+      "bpm": 87,
+      "genre": "how_i_did_it",
+      "tags": [
+        "how_i_did_it",
+        "sample",
+        "bpm_085_090",
+        "in_web",
+        "in_video",
+        "in_podcast"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/lotagblanco/4938",
+      "audioUrl": "https://ccmixter.org/content/lotagblanco/lotagblanco_-_slumlord.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3977971,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "slumlord horns",
+          "url": "https://ccmixter.org/content/lotagblanco/lotagblanco_-_slumlord_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-21067",
+      "title": "Intergalactic Journey",
+      "artist": "spinmeister",
+      "durationSec": 359,
+      "bpm": 90,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "in_video",
+        "bpm_090_095",
+        "rough_mix",
+        "cczero",
+        "CBR"
+      ],
+      "license": "CC0 (CC Zero)",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "pageUrl": "https://ccmixter.org/files/spinmeister/21067",
+      "audioUrl": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8610472,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "12stringPad",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "SynthStrings",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "SynthSolo",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "ArpeggiatedSynthBreak",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_7.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "SynthBass",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_8.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "ArpeggiatedSynthMain",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_9.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "SparklingPad",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Drums",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Intergalactic_Journey_3.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-38167",
+      "title": "Free Music & Free Beer",
+      "artist": "Alex",
+      "durationSec": 169,
+      "bpm": 125,
+      "genre": "free_music_free_beer",
+      "tags": [
+        "free_music_free_beer",
+        "remixes",
+        "bpm_125_130",
+        "in_podcast",
+        "in_video",
+        "sample"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/38167",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Free_Music_Free_Beer.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6764714,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "drums",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Free_Music_Free_Beer_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "brass",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Free_Music_Free_Beer_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "brass lead",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Free_Music_Free_Beer_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "harp",
+          "url": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Free_Music_Free_Beer_2.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-64427",
+      "title": "bluenotes",
+      "artist": "airtone",
+      "durationSec": 229,
+      "bpm": 85,
+      "genre": "funk_n_blues",
+      "tags": [
+        "funk_n_blues",
+        "pell",
+        "editorial_pick",
+        "bpm_085_090",
+        "sample",
+        "stem"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/64427",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_bluenotes_6.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9152304,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "NoGuitar",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_bluenotes_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "piano",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_bluenotes_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "bass",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_bluenotes_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "organ",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_bluenotes_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "organ2",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_bluenotes_5.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-53739",
+      "title": "Again, Once Again",
+      "artist": "fluffy",
+      "durationSec": 189,
+      "bpm": 128,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "spring_2016",
+        "bpm_125_130",
+        "preview",
+        "sample",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/fluffy/53739",
+      "audioUrl": "https://ccmixter.org/content/fluffy/fluffy_-_Again_Once_Again_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3371586,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "ambientfx",
+          "url": "https://ccmixter.org/content/fluffy/fluffy_-_Again_Once_Again_4.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "icy synth",
+          "url": "https://ccmixter.org/content/fluffy/fluffy_-_Again_Once_Again_1.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "percussion",
+          "url": "https://ccmixter.org/content/fluffy/fluffy_-_Again_Once_Again_2.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-23105",
+      "title": "Techno Twang",
+      "artist": "spinmeister",
+      "durationSec": 337,
+      "bpm": 130,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "in_video",
+        "bpm_130_135",
+        "intentions",
+        "rough_mix",
+        "cczero"
+      ],
+      "license": "CC0 (CC Zero)",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "pageUrl": "https://ccmixter.org/files/spinmeister/23105",
+      "audioUrl": "https://ccmixter.org/content/spinmeister/spinmeister_-_Techno_Twang.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8101534,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "DreamPiano",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Techno_Twang_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "TwangGuitar",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Techno_Twang_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "ElectricHarp",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Techno_Twang_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "RaveSynth",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Techno_Twang_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "TechnoBass",
+          "url": "https://ccmixter.org/content/spinmeister/spinmeister_-_Techno_Twang_4.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-64741",
+      "title": "spacedust",
+      "artist": "airtone",
+      "durationSec": 318,
+      "bpm": 80,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "mixup",
+        "winter_2022",
+        "bpm_080_085",
+        "editorial_pick",
+        "ccplus_stem"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/64741",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_spacedust_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12724810,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "bass",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_spacedust_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pianoBow",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_spacedust_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pianoPick",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_spacedust_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pianoPhone",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_spacedust_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "pianoSoft",
+          "url": "https://ccmixter.org/content/airtone/airtone_-_spacedust_6.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-55544",
+      "title": "Falling (Key of Love)",
+      "artist": "Zutsuri",
+      "durationSec": 166,
+      "bpm": 130,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "key_of_love",
+        "bpm_130_135",
+        "featured",
+        "preview",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Zutsuri/55544",
+      "audioUrl": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Falling_(Key_of_Love).flac",
+      "mime": "audio/x-flac",
+      "bytes": 12811939,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Falling Harmony Vox",
+          "url": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Falling_(Key_of_Love)_3.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Falling Dreamy Synth Pad",
+          "url": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Falling_(Key_of_Love)_1.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56612",
+      "title": "Are You Scared Yet?",
+      "artist": "Admiral Bob",
+      "durationSec": 186,
+      "bpm": 95,
+      "genre": "pell",
+      "tags": [
+        "pell",
+        "acappella",
+        "ghost_notes",
+        "halloween",
+        "bpm_095_100",
+        "featured"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/56612",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Are_You_Scared_Yet_.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4457996,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Ghost Notes Pells",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Are_You_Scared_Yet_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "drums",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Are_You_Scared_Yet_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "guitar",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Are_You_Scared_Yet_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "rhodes",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Are_You_Scared_Yet_4.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-55476",
+      "title": "A Thousand Songs Away",
+      "artist": "Mr_Yesterday",
+      "durationSec": 156,
+      "bpm": 120,
+      "genre": "key_of_love",
+      "tags": [
+        "key_of_love",
+        "pell",
+        "acappella",
+        "valentines_day",
+        "melody",
+        "featured"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Mr_Yesterday/55476",
+      "audioUrl": "https://ccmixter.org/content/Mr_Yesterday/Mr_Yesterday_-_A_Thousand_Songs_Away_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3749952,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "Raw vox comp",
+          "url": "https://ccmixter.org/content/Mr_Yesterday/Mr_Yesterday_-_A_Thousand_Songs_Away.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56858",
+      "title": "Il est né, le divin Enfant",
+      "artist": "Admiral Bob",
+      "durationSec": 149,
+      "bpm": 124,
+      "genre": "pell",
+      "tags": [
+        "pell",
+        "acappella",
+        "under_the_tree",
+        "bpm_120_125",
+        "sample",
+        "new_voice"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/56858",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Il_est_n_le_divin_Enfant_4.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5954397,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "vocal",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Il_est_n_le_divin_Enfant.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "picked guitar",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Il_est_n_le_divin_Enfant_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "strummed guitar",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Il_est_n_le_divin_Enfant_2.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56857",
+      "title": "Go Tell it on the Mountain",
+      "artist": "Admiral Bob",
+      "durationSec": 153,
+      "bpm": 104,
+      "genre": "pell",
+      "tags": [
+        "pell",
+        "acappella",
+        "under_the_tree",
+        "bpm_100_105",
+        "sample",
+        "new_voice"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/56857",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Go_Tell_it_on_the_Mountain.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3680592,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "vocal",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Go_Tell_it_on_the_Mountain_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "acoustic guitar",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Go_Tell_it_on_the_Mountain_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "lead guitar",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Go_Tell_it_on_the_Mountain_3.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-40208",
+      "title": "Forget It - Demo",
+      "artist": "Tom Ray",
+      "durationSec": 193,
+      "bpm": 80,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_080_085",
+        "how_i_did_it",
+        "ccplus_nooptin",
+        "preview",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/tmray/40208",
+      "audioUrl": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo.flac",
+      "mime": "audio/x-flac",
+      "bytes": 7646886,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "car-keys",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_1.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "drums",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_2.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "drums-2",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_3.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "guitar-main",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_4.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "guitar-plucks",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_5.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "guitar-verse",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_6.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "organ",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_7.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Saxophone",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_8.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "sax/guitar",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_9.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "vocals",
+          "url": "https://ccmixter.org/content/tmray/tmray_-_Forget_It_-_Demo_11.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56615",
+      "title": "The Stabbed Peach (Instrumental)",
+      "artist": "Aussens@iter",
+      "durationSec": 209,
+      "bpm": 110,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "bpm_110_115",
+        "multiple_formats"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/tobias_weber/56615",
+      "audioUrl": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8382215,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Bass",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_1.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "FX1",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_2.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "FX2",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_3.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "FX3",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_4.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "FX4",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_5.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "FX5",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_6.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Guitar",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_7.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Pad",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_8.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "Strings",
+          "url": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_The_Stabbed_Peach_(Instrumental)_9.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56885",
+      "title": "Silent Night (Reggae Version)",
+      "artist": "Admiral Bob",
+      "durationSec": 267,
+      "bpm": 132,
+      "genre": "pell",
+      "tags": [
+        "pell",
+        "acappella",
+        "under_the_tree",
+        "bpm_130_135",
+        "new_voice",
+        "preview"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/56885",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Silent_Night_(Reggae_Version).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6403388,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "vocal",
+          "url": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Silent_Night_(Reggae_Version)_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-33237",
+      "title": "Spacing Array",
+      "artist": "AIR_LOMEG",
+      "durationSec": 210,
+      "bpm": 120,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "bpm_120_125",
+        "electronic",
+        "filmscore",
+        "free_jazzy"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AIR_LOMEG/33237",
+      "audioUrl": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5046066,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "alto alto sax",
+          "url": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array_9.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "bass flute",
+          "url": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array_1.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "percussion",
+          "url": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "piano bass line",
+          "url": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "piano melody line",
+          "url": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth 1",
+          "url": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "synth 2",
+          "url": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Spacing_Array_7.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-55457",
+      "title": "Hunt Down Love Together",
+      "artist": "PorchCat",
+      "durationSec": 326,
+      "bpm": 100,
+      "genre": "key_of_love",
+      "tags": [
+        "key_of_love",
+        "pell",
+        "acappella",
+        "valentines_day",
+        "bpm_100_105",
+        "rough_mix"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/55457",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Hunt_Down_Love_Together.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10444844,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "dry flac pell",
+          "url": "https://ccmixter.org/content/PorchCat/PorchCat_-_Hunt_Down_Love_Together_1.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "wet pell flac",
+          "url": "https://ccmixter.org/content/PorchCat/PorchCat_-_Hunt_Down_Love_Together_2.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "wet pell mp3",
+          "url": "https://ccmixter.org/content/PorchCat/PorchCat_-_Hunt_Down_Love_Together_2.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56951",
+      "title": "Il est né, le divin Enfant (Choir)",
+      "artist": "Siobhan Dakay",
+      "durationSec": 155,
+      "bpm": 124,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "bpm_120_125",
+        "alternate",
+        "stems",
+        "sample",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SiobhanD/56951",
+      "audioUrl": "https://ccmixter.org/content/SiobhanD/SiobhanD_-_Il_est_n_le_divin_Enfant_(Choir).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6201513,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "no guitar",
+          "url": "https://ccmixter.org/content/SiobhanD/SiobhanD_-_Il_est_n_le_divin_Enfant_(Choir)_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-33395",
+      "title": "Wobbly Bass14",
+      "artist": "jasper",
+      "durationSec": 33,
+      "bpm": 140,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_140_145",
+        "bass",
+        "dubstep",
+        "electronic",
+        "stems"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Jasper/33395",
+      "audioUrl": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass14.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1048286,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "Mix without Drums",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass14_1.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56676",
+      "title": "wooom",
+      "artist": "Stefan Kartenberg",
+      "durationSec": 114,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "bpm_075_080",
+        "share_alike"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/JeffSpeed68/56676",
+      "audioUrl": "https://ccmixter.org/content/JeffSpeed68/JeffSpeed68_-_wooom.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1822554,
+      "hasStems": false,
+      "stems": [
+        {
+          "label": "poly fx",
+          "url": "https://ccmixter.org/content/JeffSpeed68/JeffSpeed68_-_wooom_2.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-56606",
+      "title": "Fire and Ice (presto mix)",
+      "artist": "Barzakh",
+      "durationSec": 208,
+      "bpm": null,
+      "genre": "ghost_notes",
+      "tags": [
+        "ghost_notes",
+        "halloween",
+        "sample",
+        "stems",
+        "share_alike",
+        "CBR"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Barzakh/56606",
+      "audioUrl": "https://ccmixter.org/content/Barzakh/Barzakh_-_Fire_and_Ice_(presto_mix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8312206,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "drums",
+          "url": "https://ccmixter.org/content/Barzakh/Barzakh_-_Fire_and_Ice_(presto_mix).flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "bass",
+          "url": "https://ccmixter.org/content/Barzakh/Barzakh_-_Fire_and_Ice_(presto_mix)_1.flac",
+          "mime": "audio/x-flac"
+        },
+        {
+          "label": "piano and guitars",
+          "url": "https://ccmixter.org/content/Barzakh/Barzakh_-_Fire_and_Ice_(presto_mix)_2.flac",
+          "mime": "audio/x-flac"
+        }
+      ]
+    },
+    {
+      "id": "ccm-33357",
+      "title": "Wobbly Bass13",
+      "artist": "jasper",
+      "durationSec": 30,
+      "bpm": 140,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_140_145",
+        "bass",
+        "drums",
+        "dubstep",
+        "stems"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Jasper/33357",
+      "audioUrl": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 965530,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Drums Stem",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13_2.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Synth1 Stem",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13_3.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Synth2 Stem",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13_4.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Synth3 Stem",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13_5.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Synth4 Stem",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13_6.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Synth5 Stem",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13_7.mp3",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Synth6 Stem",
+          "url": "https://ccmixter.org/content/Jasper/Jasper_-_Wobbly_Bass13_8.mp3",
+          "mime": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "id": "ccm-16626",
+      "title": "I dunno",
+      "artist": "grapes",
+      "durationSec": 165,
+      "bpm": 90,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_podcast",
+        "in_web",
+        "in_remix",
+        "in_album",
+        "bpm_090_095"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/grapes/16626",
+      "audioUrl": "https://ccmixter.org/content/grapes/grapes_-_I_dunno.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4534616,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-25389",
+      "title": "Reverie (small theme)",
+      "artist": "_ghost",
+      "durationSec": 41,
+      "bpm": 120,
+      "genre": "bpm_120_125",
+      "tags": [
+        "bpm_120_125",
+        "in_web",
+        "in_video",
+        "in_remix",
+        "in_podcast",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/_ghost/25389",
+      "audioUrl": "https://ccmixter.org/content/_ghost/_ghost_-_Reverie_(small_theme).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1647847,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-8721",
+      "title": "\"Stop\" (blue mix)",
+      "artist": "Ghost_k (Ghost Kollective)",
+      "durationSec": 216,
+      "bpm": 90,
+      "genre": "editorial_pick",
+      "tags": [
+        "editorial_pick",
+        "in_video",
+        "in_remix",
+        "in_podcast",
+        "in_web",
+        "bpm_090_095"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/Ghost_k/8721",
+      "audioUrl": "https://ccmixter.org/content/Ghost_k/Ghost_k_-_Stop_(blue_mix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8646575,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-37792",
+      "title": "Drops of H2O ( The Filtered Water Treatment )",
+      "artist": "J.Lang",
+      "durationSec": 315,
+      "bpm": 80,
+      "genre": "June_2012",
+      "tags": [
+        "June_2012",
+        "secret_mixter",
+        "bpm_080_085",
+        "editorial_pick",
+        "in_video",
+        "in_podcast"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/djlang59/37792",
+      "audioUrl": "https://ccmixter.org/content/djlang59/djlang59_-_Drops_of_H2O_(_The_Filtered_Water_Treatment_).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5045646,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-18947",
+      "title": "café connection",
+      "artist": "morgantj",
+      "durationSec": 194,
+      "bpm": 120,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "editorial_pick",
+        "in_podcast",
+        "in_web",
+        "bpm_120_125",
+        "alternate"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/morgantj/18947",
+      "audioUrl": "https://ccmixter.org/content/morgantj/morgantj_-_caf_connection_2.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4661752,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-17432",
+      "title": "Silence Await",
+      "artist": "cdk",
+      "durationSec": 199,
+      "bpm": 140,
+      "genre": "in_podcast",
+      "tags": [
+        "in_podcast",
+        "in_video",
+        "in_web",
+        "bpm_140_145",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/cdk/17432",
+      "audioUrl": "https://ccmixter.org/content/cdk/cdk_-_Silence_Await.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7961122,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-7785",
+      "title": "Awel",
+      "artist": "stefsax",
+      "durationSec": 185,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_web",
+        "in_podcast",
+        "attribution",
+        "CBR",
+        "funky"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/stefsax/7785",
+      "audioUrl": "https://ccmixter.org/content/stefsax/stefsax_-_Awel.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5198098,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-32423",
+      "title": "Spinnin'",
+      "artist": "Alex",
+      "durationSec": 212,
+      "bpm": 153.7,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "summer_2011",
+        "editorial_pick",
+        "in_video",
+        "in_podcast",
+        "in_remix"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/32423",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Spinnin_.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8500289,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-14476",
+      "title": "The Long Goodbye",
+      "artist": "John Pazdan",
+      "durationSec": 134,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_web",
+        "in_remix",
+        "in_podcast",
+        "in_album",
+        "attribution"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/flatwound/14476",
+      "audioUrl": "https://ccmixter.org/content/flatwound/flatwound_-_The_Long_Goodbye.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4304188,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33345",
+      "title": "Urbana-Metronica (wooh-yeah mix)",
+      "artist": "spinningmerkaba",
+      "durationSec": 207,
+      "bpm": 100,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "editorial_pick",
+        "in_video",
+        "in_album",
+        "in_podcast",
+        "in_remix"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/33345",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Urbana-Metronica_(wooh-yeah_mix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3321147,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-18619",
+      "title": "Never Heard a Rhyme Like This Before",
+      "artist": "Scott Altham",
+      "durationSec": 250,
+      "bpm": 115,
+      "genre": "bpm_115_120",
+      "tags": [
+        "bpm_115_120",
+        "in_video",
+        "in_web",
+        "attribution",
+        "CBR",
+        "ambient"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/scottaltham/18619",
+      "audioUrl": "https://ccmixter.org/content/scottaltham/scottaltham_-_Never_Heard_a_Rhyme_Like_This_Before.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10023751,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-19367",
+      "title": "Parametaphoriquement",
+      "artist": "gmz",
+      "durationSec": 289,
+      "bpm": 109,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "how_i_did_it",
+        "in_video",
+        "in_podcast",
+        "in_web",
+        "bpm_105_110"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/gmz/19367",
+      "audioUrl": "https://ccmixter.org/content/gmz/gmz_-_Parametaphoriquement.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7526722,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-12238",
+      "title": "beeKoo mix",
+      "artist": "Lasswell",
+      "durationSec": 253,
+      "bpm": 92,
+      "genre": "editorial_pick",
+      "tags": [
+        "editorial_pick",
+        "in_video",
+        "in_podcast",
+        "in_web",
+        "bpm_090_095",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/lazztunes07/12238",
+      "audioUrl": "https://ccmixter.org/content/lazztunes07/lazztunes07_-_beeKoo_mix.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7881029,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-6343",
+      "title": "Ophelia's Song (Vocals)",
+      "artist": "musetta",
+      "durationSec": 203,
+      "bpm": 130,
+      "genre": "acappella",
+      "tags": [
+        "acappella",
+        "bpm_130_135",
+        "featured",
+        "in_video",
+        "in_remix",
+        "ambient"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/musetta/6343",
+      "audioUrl": "https://ccmixter.org/content/musetta/musetta_-_Ophelia_s_Song_(Vocals).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3254693,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-41323",
+      "title": "The Haunted Hotel",
+      "artist": "SackJo22",
+      "durationSec": 247,
+      "bpm": 140,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "winter_2013",
+        "editorial_pick",
+        "bpm_140_145",
+        "in_video",
+        "spoken"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SackJo22/41323",
+      "audioUrl": "https://ccmixter.org/content/SackJo22/SackJo22_-_The_Haunted_Hotel.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3958272,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33699",
+      "title": "The Right Voice",
+      "artist": "SackJo22",
+      "durationSec": 312,
+      "bpm": null,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "rooted_in_peace",
+        "editorial_pick",
+        "melody",
+        "featured",
+        "acapella"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SackJo22/33699",
+      "audioUrl": "https://ccmixter.org/content/SackJo22/SackJo22_-_The_Right_Voice.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4992000,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-23690",
+      "title": "The White Cube",
+      "artist": "SackJo22",
+      "durationSec": 104,
+      "bpm": 75,
+      "genre": "acappella",
+      "tags": [
+        "acappella",
+        "bpm_075_080",
+        "in_video",
+        "in_remix",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SackJo22/23690",
+      "audioUrl": "https://ccmixter.org/content/SackJo22/SackJo22_-_The_White_Cube.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1668955,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-14073",
+      "title": "Dj Rkod - Pulse (George Ellinas Remix)",
+      "artist": "George_Ellinas",
+      "durationSec": 198,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_podcast",
+        "attribution",
+        "CBR",
+        "bass",
+        "drums"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/George_Ellinas/14073",
+      "audioUrl": "https://ccmixter.org/content/George_Ellinas/George_Ellinas_-_Dj_Rkod_-_Pulse_(George_Ellinas_Remix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7908877,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-31607",
+      "title": "We Are Free",
+      "artist": "Zep Hurme",
+      "durationSec": 194,
+      "bpm": 120,
+      "genre": "corruption",
+      "tags": [
+        "corruption",
+        "strike_the_root",
+        "editorial_pick",
+        "bpm_120_125",
+        "in_video",
+        "in_podcast"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/zep_hurme/31607",
+      "audioUrl": "https://ccmixter.org/content/zep_hurme/zep_hurme_-_We_Are_Free.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4153202,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-2905",
+      "title": "Photo theme: Window like",
+      "artist": "Antony Raijekov",
+      "durationSec": 203,
+      "bpm": null,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "in_video",
+        "in_web",
+        "in_podcast",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/zeos/2905",
+      "audioUrl": "https://ccmixter.org/content/zeos/zeos_-_Photo_theme_Window_like.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3245982,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-17253",
+      "title": "Improvisation On Friday...",
+      "artist": "Alex",
+      "durationSec": 217,
+      "bpm": 78.45,
+      "genre": "bpm_075_080",
+      "tags": [
+        "bpm_075_080",
+        "in_podcast",
+        "in_video",
+        "in_web",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/17253",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Improvisation_On_Friday....mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5218474,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-15556",
+      "title": "THIS IS OUR MUSIC (Thruewiddit mix)",
+      "artist": "duckett",
+      "durationSec": 188,
+      "bpm": 81.643,
+      "genre": "editorial_pick",
+      "tags": [
+        "editorial_pick",
+        "in_web",
+        "in_podcast",
+        "in_video",
+        "bpm_080_085",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/duckett/15556",
+      "audioUrl": "https://ccmixter.org/content/duckett/duckett_-_THIS_IS_OUR_MUSIC_(Thruewiddit_mix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7531669,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-20487",
+      "title": "Lord, Have Mercy (Gospodi, pomiluj)",
+      "artist": "Dr. Emiliyan Stankov",
+      "durationSec": 90,
+      "bpm": null,
+      "genre": "acappella",
+      "tags": [
+        "acappella",
+        "featured",
+        "in_video",
+        "in_remix",
+        "in_album",
+        "in_web"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/iestankov/20487",
+      "audioUrl": "https://ccmixter.org/content/iestankov/iestankov_-_Lord_Have_Mercy_(Gospodi_pomiluj).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3604941,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-24925",
+      "title": "Watching Seabirds Soar (Harmony)",
+      "artist": "DoKashiteru",
+      "durationSec": 220,
+      "bpm": 88.5,
+      "genre": "reduce_reuse_remix",
+      "tags": [
+        "reduce_reuse_remix",
+        "bpm_085_090",
+        "in_podcast",
+        "in_video",
+        "in_web",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/DoKashiteru/24925",
+      "audioUrl": "https://ccmixter.org/content/DoKashiteru/DoKashiteru_-_Watching_Seabirds_Soar_(Harmony).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4398542,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-28107",
+      "title": "Mine + Yours = Ours",
+      "artist": "George_Ellinas",
+      "durationSec": 372,
+      "bpm": 138,
+      "genre": "Freedom_to_Share",
+      "tags": [
+        "Freedom_to_Share",
+        "stage_two",
+        "ASCAP",
+        "Creative_Commons",
+        "bpm_135_140",
+        "in_video"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/George_Ellinas/28107",
+      "audioUrl": "https://ccmixter.org/content/George_Ellinas/George_Ellinas_-_Mine_Yours_Ours.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8938102,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47456",
+      "title": "Homesick",
+      "artist": "kizzylotus",
+      "durationSec": 201,
+      "bpm": null,
+      "genre": "acappella",
+      "tags": [
+        "acappella",
+        "featured",
+        "melody",
+        "in_video",
+        "in_remix",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/kizzylotus/47456",
+      "audioUrl": "https://ccmixter.org/content/kizzylotus/kizzylotus_-_Homesick.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3213315,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-26157",
+      "title": "Heart On Redial",
+      "artist": "loveshadow",
+      "durationSec": 248,
+      "bpm": 92,
+      "genre": "bpm_090_095",
+      "tags": [
+        "bpm_090_095",
+        "in_video",
+        "attribution",
+        "CBR",
+        "acoustic",
+        "ballad"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Loveshadow/26157",
+      "audioUrl": "https://ccmixter.org/content/Loveshadow/Loveshadow_-_Heart_On_Redial.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9904631,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-34409",
+      "title": "Ave",
+      "artist": "Alex",
+      "durationSec": 221,
+      "bpm": 100,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2011",
+        "bpm_100_105",
+        "in_video",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/34409",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Ave.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8838836,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-41275",
+      "title": "Secret Things",
+      "artist": "Madam Snowflake",
+      "durationSec": 259,
+      "bpm": 93,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "winter_2013",
+        "editorial_pick",
+        "bpm_090_095",
+        "in_video",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/41275",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_Secret_Things.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4151634,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-43036",
+      "title": "Turning Into Normal (What Once Felt Strange)",
+      "artist": "SackJo22",
+      "durationSec": 356,
+      "bpm": 130,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "summer",
+        "2013",
+        "summer_2013",
+        "editorial_pick",
+        "in_video"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SackJo22/43036",
+      "audioUrl": "https://ccmixter.org/content/SackJo22/SackJo22_-_Turning_Into_Normal_(What_Once_Felt_Strange)_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5695104,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33579",
+      "title": "Orc March",
+      "artist": "basematic",
+      "durationSec": 198,
+      "bpm": 120,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "bpm_120_125",
+        "editorial_pick",
+        "in_video",
+        "in_remix",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/basematic/33579",
+      "audioUrl": "https://ccmixter.org/content/basematic/basematic_-_Orc_March.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4755166,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33850",
+      "title": "Blue Circles",
+      "artist": "unreal_dm",
+      "durationSec": 157,
+      "bpm": 80,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "bpm_080_085",
+        "in_video",
+        "in_web",
+        "ccplus_stem",
+        "sample"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/unreal_dm/33850",
+      "audioUrl": "https://ccmixter.org/content/unreal_dm/unreal_dm_-_Blue_Circles.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4644183,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-34402",
+      "title": "There's A Better WAY !",
+      "artist": "loveshadow",
+      "durationSec": 360,
+      "bpm": 118,
+      "genre": "bpm_115_120",
+      "tags": [
+        "bpm_115_120",
+        "in_video",
+        "in_remix",
+        "in_web",
+        "in_podcast",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Loveshadow/34402",
+      "audioUrl": "https://ccmixter.org/content/Loveshadow/Loveshadow_-_There_s_A_Better_WAY_.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10910087,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-15924",
+      "title": "Hornet",
+      "artist": "George_Ellinas",
+      "durationSec": 288,
+      "bpm": 134,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_podcast",
+        "in_web",
+        "bpm_130_135",
+        "attribution",
+        "VBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/George_Ellinas/15924",
+      "audioUrl": "https://ccmixter.org/content/George_Ellinas/George_Ellinas_-_Hornet.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9515251,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-23691",
+      "title": "Winter Lights Drones and Tones Pack",
+      "artist": "gurdonark",
+      "durationSec": 167,
+      "bpm": null,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "in_video",
+        "in_web",
+        "preview",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/gurdonark/23691",
+      "audioUrl": "https://ccmixter.org/content/gurdonark/gurdonark_-_Winter_Lights_Drones_and_Tones_Pack.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4014751,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-29630",
+      "title": "Straight To The Light",
+      "artist": "Alex",
+      "durationSec": 208,
+      "bpm": 120,
+      "genre": "by_and_by",
+      "tags": [
+        "by_and_by",
+        "bpm_120_125",
+        "in_video",
+        "in_podcast",
+        "sample",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/29630",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Straight_To_The_Light.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6662314,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-30285",
+      "title": "Come Up For Air",
+      "artist": "SackJo22",
+      "durationSec": 224,
+      "bpm": 120,
+      "genre": "emergence_artlab",
+      "tags": [
+        "emergence_artlab",
+        "in_video",
+        "in_web",
+        "bpm_120_125",
+        "multiple_formats",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SackJo22/30285",
+      "audioUrl": "https://ccmixter.org/content/SackJo22/SackJo22_-_Come_Up_For_Air.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5381478,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-14414",
+      "title": "(PIANO) A minor improvisation on Sunday",
+      "artist": "The3amAssociation",
+      "durationSec": 231,
+      "bpm": 82,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_080_085",
+        "in_video",
+        "in_web",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/The3amAssociation/14414",
+      "audioUrl": "https://ccmixter.org/content/The3amAssociation/The3amAssociation_-_(PIANO)_A_minor_improvisation_on_Sunday.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3704416,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-21636",
+      "title": "On Your Grave",
+      "artist": "wellman",
+      "durationSec": 281,
+      "bpm": 73,
+      "genre": "bpm_070_075",
+      "tags": [
+        "bpm_070_075",
+        "editorial_pick",
+        "in_video",
+        "attribution",
+        "CBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/wellman/21636",
+      "audioUrl": "https://ccmixter.org/content/wellman/wellman_-_On_Your_Grave.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5627342,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-46164",
+      "title": "A Foolish Game",
+      "artist": "Madam Snowflake",
+      "durationSec": 193,
+      "bpm": 100,
+      "genre": "big_summer_fest",
+      "tags": [
+        "big_summer_fest",
+        "bpm_100_105",
+        "editorial_pick",
+        "in_podcast",
+        "in_video",
+        "in_web"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/46164",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_A_Foolish_Game.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3096287,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-28088",
+      "title": "Down In Your Heart",
+      "artist": "Alex",
+      "durationSec": 247,
+      "bpm": 100,
+      "genre": "Freedom_to_Share",
+      "tags": [
+        "Freedom_to_Share",
+        "stage_two",
+        "ASCAP",
+        "Creative_Commons",
+        "bpm_100_105",
+        "in_video"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/28088",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Down_In_Your_Heart.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7916191,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-29186",
+      "title": "260809 Funky Nurykabe",
+      "artist": "spinningmerkaba",
+      "durationSec": 187,
+      "bpm": 100.44,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2010",
+        "in_web",
+        "in_video",
+        "bpm_100_105",
+        "sample"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/29186",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_260809_Funky_Nurykabe.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4482446,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33318",
+      "title": "Ethereal Space",
+      "artist": "Madam Snowflake",
+      "durationSec": 77,
+      "bpm": 120,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "how_i_did_it",
+        "in_video",
+        "bpm_120_125",
+        "multiple_formats",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/snowflake/33318",
+      "audioUrl": "https://ccmixter.org/content/snowflake/snowflake_-_Ethereal_Space.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2454301,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33580",
+      "title": "La Madeline Au Truffe (composed by Jeris)",
+      "artist": "basematic",
+      "durationSec": 331,
+      "bpm": 191,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "bpm_above_180",
+        "in_video",
+        "in_web",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/basematic/33580",
+      "audioUrl": "https://ccmixter.org/content/basematic/basematic_-_La_Madeline_Au_Truffe_(composed_by_Jeris).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7936880,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-24177",
+      "title": "White Out (Shade of the Moon Mix)",
+      "artist": "SackJo22",
+      "durationSec": 198,
+      "bpm": null,
+      "genre": "how_i_did_it",
+      "tags": [
+        "how_i_did_it",
+        "in_video",
+        "in_web",
+        "attribution",
+        "CBR",
+        "ambient"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SackJo22/24177",
+      "audioUrl": "https://ccmixter.org/content/SackJo22/SackJo22_-_White_Out_(Shade_of_the_Moon_Mix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3170265,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-27187",
+      "title": "Purple Nurple",
+      "artist": "Alex",
+      "durationSec": 191,
+      "bpm": 68,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "summer_2010",
+        "bpm_065_070",
+        "in_video",
+        "in_web",
+        "multiple_formats"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/27187",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Purple_Nurple.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4579623,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-14782",
+      "title": "Act Cool ( Roman Holiday )",
+      "artist": "loveshadow",
+      "durationSec": 228,
+      "bpm": 97,
+      "genre": "bpm_095_100",
+      "tags": [
+        "bpm_095_100",
+        "in_web",
+        "in_video",
+        "attribution",
+        "VBR",
+        "bossaambarumba"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/Loveshadow/14782",
+      "audioUrl": "https://ccmixter.org/content/Loveshadow/Loveshadow_-_Act_Cool_(_Roman_Holiday_).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5305097,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-27099",
+      "title": "Tell Somebody",
+      "artist": "Alex",
+      "durationSec": 201,
+      "bpm": 115,
+      "genre": "bpm_115_120",
+      "tags": [
+        "bpm_115_120",
+        "in_video",
+        "in_podcast",
+        "sample",
+        "multiple_formats",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AlexBeroza/27099",
+      "audioUrl": "https://ccmixter.org/content/AlexBeroza/AlexBeroza_-_Tell_Somebody.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6434108,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33861",
+      "title": "Peace ( There's A better Way )",
+      "artist": "loveshadow",
+      "durationSec": 302,
+      "bpm": 120,
+      "genre": "bpm_120_125",
+      "tags": [
+        "bpm_120_125",
+        "in_video",
+        "attribution",
+        "VBR",
+        "4_2_the_floor",
+        "bass"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Loveshadow/33861",
+      "audioUrl": "https://ccmixter.org/content/Loveshadow/Loveshadow_-_Peace_(_There_s_A_better_Way_).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9409546,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33304",
+      "title": "The Broken",
+      "artist": "Admiral Bob",
+      "durationSec": 163,
+      "bpm": null,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "editorial_pick",
+        "in_video",
+        "sample",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/33304",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Broken.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3922984,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-45486",
+      "title": "Forgotten Land",
+      "artist": "Doxent Zsigmond",
+      "durationSec": 364,
+      "bpm": 80,
+      "genre": "winter_2014",
+      "tags": [
+        "winter_2014",
+        "secret_mixter",
+        "winter",
+        "2014",
+        "bpm_080_085",
+        "in_podcast"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/doxent/45486",
+      "audioUrl": "https://ccmixter.org/content/doxent/doxent_-_Forgotten_Land.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8751900,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-35879",
+      "title": "Two Guitars",
+      "artist": "Admiral Bob",
+      "durationSec": 150,
+      "bpm": 80,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "spring_2012",
+        "in_video",
+        "in_remix",
+        "bpm_080_085",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/35879",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Two_Guitars.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3603724,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-7116",
+      "title": "sevenhundredbeats",
+      "artist": "duncan_beattie",
+      "durationSec": 210,
+      "bpm": 200,
+      "genre": "bpm_above_180",
+      "tags": [
+        "bpm_above_180",
+        "how_i_did_it",
+        "editorial_pick",
+        "in_video",
+        "in_web",
+        "attribution"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/duncan_beattie/7116",
+      "audioUrl": "https://ccmixter.org/content/duncan_beattie/duncan_beattie_-_sevenhundredbeats.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5046066,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-55887",
+      "title": "nightRain",
+      "artist": "airtone",
+      "durationSec": 230,
+      "bpm": 116,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "crack_the_code",
+        "editorial_pick",
+        "bpm_115_120",
+        "in_video",
+        "attribution"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/airtone/55887",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_nightRain.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5517524,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-41284",
+      "title": "I Have Often Told You Stories (guitar instrumental)",
+      "artist": "Ivan Chew",
+      "durationSec": 222,
+      "bpm": 120,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "winter_2013",
+        "bpm_120_125",
+        "in_video",
+        "in_album",
+        "sample"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/ramblinglibrarian/41284",
+      "audioUrl": "https://ccmixter.org/content/ramblinglibrarian/ramblinglibrarian_-_I_Have_Often_Told_You_Stories_(guitar_instrumental).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4327595,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33867",
+      "title": "Quiet Rain",
+      "artist": "onlymeith",
+      "durationSec": 158,
+      "bpm": 70,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "in_video",
+        "in_podcast",
+        "in_web",
+        "bpm_070_075",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/onlymeith/33867",
+      "audioUrl": "https://ccmixter.org/content/onlymeith/onlymeith_-_Quiet_Rain.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6315407,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-34419",
+      "title": "Reflections in the Rain",
+      "artist": "Mana Junkie",
+      "durationSec": 233,
+      "bpm": 75,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2011",
+        "how_i_did_it",
+        "editorial_pick",
+        "in_video",
+        "bpm_075_080"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/mana_junkie/34419",
+      "audioUrl": "https://ccmixter.org/content/mana_junkie/mana_junkie_-_Reflections_in_the_Rain.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7466467,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-8751",
+      "title": "B Calm Violin Track",
+      "artist": "Dimitri Artemenko",
+      "durationSec": 109,
+      "bpm": 100,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "in_video",
+        "bpm_100_105",
+        "in_web",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/stringfactory/8751",
+      "audioUrl": "https://ccmixter.org/content/stringfactory/stringfactory_-_B_Calm_Violin_Track_2.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4354134,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-15328",
+      "title": "Kokokur",
+      "artist": "Pitx",
+      "durationSec": 98,
+      "bpm": 120,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_120_125",
+        "in_video",
+        "attribution",
+        "CBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Pitx/15328",
+      "audioUrl": "https://ccmixter.org/content/Pitx/Pitx_-_Kokokur.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2357752,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-27007",
+      "title": "Hidden Blues",
+      "artist": "Pitx",
+      "durationSec": 144,
+      "bpm": 128,
+      "genre": "bpm_125_130",
+      "tags": [
+        "bpm_125_130",
+        "in_video",
+        "attribution",
+        "VBR",
+        "acoustic",
+        "guitar"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Pitx/27007",
+      "audioUrl": "https://ccmixter.org/content/Pitx/Pitx_-_Hidden_Blues.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3170642,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-35724",
+      "title": "Blue Like Venus",
+      "artist": "spinningmerkaba",
+      "durationSec": 275,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_remix",
+        "multiple_formats",
+        "sample",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/35724",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Blue_Like_Venus.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4402407,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-17322",
+      "title": "too quiet (piano)",
+      "artist": "oldDog",
+      "durationSec": 189,
+      "bpm": 70,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_070_075",
+        "in_video",
+        "attribution",
+        "VBR",
+        "ambient"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/oldDog/17322",
+      "audioUrl": "https://ccmixter.org/content/oldDog/oldDog_-_too_quiet_(piano).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6146802,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-30638",
+      "title": "Chords For David",
+      "artist": "Pitx",
+      "durationSec": 97,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_album",
+        "attribution",
+        "VBR",
+        "acoustic",
+        "guitar"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Pitx/30638",
+      "audioUrl": "https://ccmixter.org/content/Pitx/Pitx_-_Chords_For_David.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2484715,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-34714",
+      "title": "December Nights",
+      "artist": "cdk",
+      "durationSec": 239,
+      "bpm": 140,
+      "genre": "bpm_140_145",
+      "tags": [
+        "bpm_140_145",
+        "in_video",
+        "attribution",
+        "CBR",
+        "bass",
+        "chill"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/cdk/34714",
+      "audioUrl": "https://ccmixter.org/content/cdk/cdk_-_December_Nights.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9572354,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33436",
+      "title": "Piano Soundtrack 1",
+      "artist": "gurdonark",
+      "durationSec": 78,
+      "bpm": 70,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "bpm_070_075",
+        "in_video",
+        "multiple_formats",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/gurdonark/33436",
+      "audioUrl": "https://ccmixter.org/content/gurdonark/gurdonark_-_Piano_Soundtrack_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3131604,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-60674",
+      "title": "reNovation",
+      "artist": "airtone",
+      "durationSec": 211,
+      "bpm": 82,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2019",
+        "editorial_pick",
+        "bpm_080_085",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/60674",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_reNovation_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8433415,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-63513",
+      "title": "blackSnow",
+      "artist": "airtone",
+      "durationSec": 360,
+      "bpm": 100,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "mixup",
+        "spring_2021",
+        "yin_of_yang",
+        "editorial_pick",
+        "bpm_100_105"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/63513",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_blackSnow_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14405006,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-32247",
+      "title": "Sticky Bumps (featuring Debbizo)",
+      "artist": "spinningmerkaba",
+      "durationSec": 207,
+      "bpm": 76.85,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_web",
+        "bpm_075_080",
+        "multiple_formats",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/32247",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Sticky_Bumps_(featuring_Debbizo).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3315713,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56520",
+      "title": "nightWalk",
+      "artist": "airtone",
+      "durationSec": 280,
+      "bpm": 106,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "shifting_seasons",
+        "in_video",
+        "bpm_105_110",
+        "in_web",
+        "in_remix"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/56520",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_nightWalk.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6725635,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-19368",
+      "title": "Statia",
+      "artist": "gurdonark",
+      "durationSec": 165,
+      "bpm": null,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "in_video",
+        "in_album",
+        "in_podcast",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/gurdonark/19368",
+      "audioUrl": "https://ccmixter.org/content/gurdonark/gurdonark_-_Statia.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3965223,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33338",
+      "title": "Vox Vs. Uke",
+      "artist": "Kara Square",
+      "durationSec": 120,
+      "bpm": 80,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "acappella",
+        "acapella",
+        "in_video",
+        "bpm_080_085",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/mindmapthat/33338",
+      "audioUrl": "https://ccmixter.org/content/mindmapthat/mindmapthat_-_Vox_Vs._Uke.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4805531,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-8522",
+      "title": "Mega Colaboration - Welcome to Mixter",
+      "artist": "cdk",
+      "durationSec": 784,
+      "bpm": 95,
+      "genre": "editorial_pick",
+      "tags": [
+        "editorial_pick",
+        "bpm_095_100",
+        "in_web",
+        "in_video",
+        "bass",
+        "chill"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/cdk/8522",
+      "audioUrl": "https://ccmixter.org/content/cdk/cdk_-_Mega_Colaboration_-_Welcome_to_Mixter.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6274656,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-11479",
+      "title": "Paloseco Brazz Muted Trumpet Blues Samples",
+      "artist": "The Paloseco Brazz Orchestra",
+      "durationSec": 97,
+      "bpm": 65,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_065_070",
+        "in_video",
+        "blues",
+        "brass",
+        "instrumental"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/waldhorn33/11479",
+      "audioUrl": "https://ccmixter.org/content/waldhorn33/waldhorn33_-_Paloseco_Brazz_Muted_Trumpet_Blues_Samples.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3878508,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-26146",
+      "title": "Two Swords",
+      "artist": "_ghost",
+      "durationSec": 68,
+      "bpm": 128,
+      "genre": "bpm_125_130",
+      "tags": [
+        "bpm_125_130",
+        "in_video",
+        "attribution",
+        "CBR",
+        "chill",
+        "drums"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/_ghost/26146",
+      "audioUrl": "https://ccmixter.org/content/_ghost/_ghost_-_Two_Swords.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2707374,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-48915",
+      "title": "Like Music (cdk Mix)",
+      "artist": "cdk",
+      "durationSec": 178,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "share_alike",
+        "CBR",
+        "instrumental",
+        "chill",
+        "trip_hop"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/cdk/48915",
+      "audioUrl": "https://ccmixter.org/content/cdk/cdk_-_Like_Music_(cdk_Mix)_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7137742,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-59721",
+      "title": "reCreation",
+      "artist": "airtone",
+      "durationSec": 221,
+      "bpm": 88,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "spring_2019",
+        "editorial_pick",
+        "in_web",
+        "bpm_085_090",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/59721",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_reCreation_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8840925,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-12093",
+      "title": "Moments in Space",
+      "artist": "spinmeister",
+      "durationSec": 284,
+      "bpm": 87,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_podcast",
+        "in_web",
+        "bpm_085_090",
+        "alternate",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/spinmeister/12093",
+      "audioUrl": "https://ccmixter.org/content/spinmeister/spinmeister_-_Moments_in_Space_2.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6814478,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-35050",
+      "title": "Winter Walk (Silver Trumpet Mix)",
+      "artist": "spinningmerkaba",
+      "durationSec": 313,
+      "bpm": null,
+      "genre": "tis_the_season",
+      "tags": [
+        "tis_the_season",
+        "in_video",
+        "in_podcast",
+        "multiple_formats",
+        "sample",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/35050",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Winter_Walk_(Silver_Trumpet_Mix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5017644,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-43975",
+      "title": "Plucked Contemporary Boom",
+      "artist": "Kara Square",
+      "durationSec": 212,
+      "bpm": 120,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2013",
+        "bpm_120_125",
+        "in_video",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/mindmapthat/43975",
+      "audioUrl": "https://ccmixter.org/content/mindmapthat/mindmapthat_-_Plucked_Contemporary_Boom.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5080548,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-23358",
+      "title": "Sawmill",
+      "artist": "gurdonark",
+      "durationSec": 185,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "attribution",
+        "CBR",
+        "ambient",
+        "documentary",
+        "electronic"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/gurdonark/23358",
+      "audioUrl": "https://ccmixter.org/content/gurdonark/gurdonark_-_Sawmill.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4438562,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33300",
+      "title": "Theatrical Trailer (annabloom vs. Jeris)",
+      "artist": "spinningmerkaba",
+      "durationSec": 302,
+      "bpm": 120,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "in_video",
+        "bpm_120_125",
+        "multiple_formats",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/33300",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Theatrical_Trailer_(annabloom_vs._Jeris).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4830397,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-38010",
+      "title": "Truth?",
+      "artist": "onlymeith",
+      "durationSec": 224,
+      "bpm": 75,
+      "genre": "bpm_075_080",
+      "tags": [
+        "bpm_075_080",
+        "in_video",
+        "attribution",
+        "CBR",
+        "ambient",
+        "downtempo"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/onlymeith/38010",
+      "audioUrl": "https://ccmixter.org/content/onlymeith/onlymeith_-_Truth_.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8966313,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-14246",
+      "title": "Midnight Theme (cdk mix)",
+      "artist": "cdk",
+      "durationSec": 192,
+      "bpm": 110,
+      "genre": "bpm_110_115",
+      "tags": [
+        "bpm_110_115",
+        "in_video",
+        "attribution",
+        "CBR",
+        "chill",
+        "downtempo"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/cdk/14246",
+      "audioUrl": "https://ccmixter.org/content/cdk/cdk_-_Midnight_Theme_(cdk_mix).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7686313,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33115",
+      "title": "Organometron (140811 MIx)",
+      "artist": "spinningmerkaba",
+      "durationSec": 242,
+      "bpm": 100,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_album",
+        "bpm_100_105",
+        "multiple_formats",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/33115",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Organometron_(140811_MIx).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3879540,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33608",
+      "title": "disOrder",
+      "artist": "airtone",
+      "durationSec": 325,
+      "bpm": 90,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "in_video",
+        "bpm_090_095",
+        "attribution",
+        "CBR",
+        "ambient"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/airtone/33608",
+      "audioUrl": "https://ccmixter.org/content/airtone/airtone_-_disOrder.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6512371,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-34457",
+      "title": "Zest",
+      "artist": "basematic",
+      "durationSec": 207,
+      "bpm": 120,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2011",
+        "bpm_120_125",
+        "in_video",
+        "in_web",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/basematic/34457",
+      "audioUrl": "https://ccmixter.org/content/basematic/basematic_-_Zest.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5649537,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-55041",
+      "title": "Paper Planes - Durden ft. Airtone",
+      "artist": "DURDEN",
+      "durationSec": 389,
+      "bpm": 141,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "fall_2016",
+        "bpm_140_145",
+        "in_video",
+        "attribution",
+        "16k"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/DURDEN/55041",
+      "audioUrl": "https://ccmixter.org/content/DURDEN/DURDEN_-_Paper_Planes_-_Durden_ft._Airtone.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1564669,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-39113",
+      "title": "Dummy",
+      "artist": "Ghost_k (Ghost Kollective)",
+      "durationSec": 274,
+      "bpm": 120,
+      "genre": "bpm_120_125",
+      "tags": [
+        "bpm_120_125",
+        "in_video",
+        "attribution",
+        "48k",
+        "CBR",
+        "bass"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/Ghost_k/39113",
+      "audioUrl": "https://ccmixter.org/content/Ghost_k/Ghost_k_-_Dummy.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10966464,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-26216",
+      "title": "FIANA 110 BPM 2 VIOLIN TRACK",
+      "artist": "Dimitri Artemenko",
+      "durationSec": 44,
+      "bpm": 110,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_110_115",
+        "attribution",
+        "CBR",
+        "acoustic",
+        "ambient"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/stringfactory/26216",
+      "audioUrl": "https://ccmixter.org/content/stringfactory/stringfactory_-_FIANA_110_BPM_2_VIOLIN_TRACK.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1752337,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-26358",
+      "title": "Kids",
+      "artist": "Pitx",
+      "durationSec": 90,
+      "bpm": 85,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_085_090",
+        "in_video",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Pitx/26358",
+      "audioUrl": "https://ccmixter.org/content/Pitx/Pitx_-_Kids.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1728180,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-29923",
+      "title": "Bye Bye 2010",
+      "artist": "Pitx",
+      "durationSec": 161,
+      "bpm": null,
+      "genre": "in_video",
+      "tags": [
+        "in_video",
+        "in_podcast",
+        "attribution",
+        "VBR",
+        "acoustic",
+        "ambient"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Pitx/29923",
+      "audioUrl": "https://ccmixter.org/content/Pitx/Pitx_-_Bye_Bye_2010.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3961518,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-32731",
+      "title": "New Life",
+      "artist": "Fireproof_Babies",
+      "durationSec": 243,
+      "bpm": 85,
+      "genre": "bpm_085_090",
+      "tags": [
+        "bpm_085_090",
+        "in_video",
+        "attribution",
+        "CBR",
+        "guitar",
+        "instrumental"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Fireproof_Babies/32731",
+      "audioUrl": "https://ccmixter.org/content/Fireproof_Babies/Fireproof_Babies_-_New_Life.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9729089,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-34368",
+      "title": "Ravine",
+      "artist": "gurdonark",
+      "durationSec": 202,
+      "bpm": 50,
+      "genre": "bpm_below_60",
+      "tags": [
+        "bpm_below_60",
+        "in_video",
+        "attribution",
+        "VBR",
+        "ambient",
+        "background"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/gurdonark/34368",
+      "audioUrl": "https://ccmixter.org/content/gurdonark/gurdonark_-_Ravine.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2721215,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-62739",
+      "title": "The night is calling",
+      "artist": "Kraftamt",
+      "durationSec": 214,
+      "bpm": 100,
+      "genre": "secret_mixter",
+      "tags": [
+        "secret_mixter",
+        "mixup",
+        "winter_2020",
+        "come_together",
+        "bpm_100_105",
+        "editorial_pick"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Karstenholymoly/62739",
+      "audioUrl": "https://ccmixter.org/content/Karstenholymoly/Karstenholymoly_-_The_night_is_calling.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8550444,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-38009",
+      "title": "Jazzy eve of heavy seas",
+      "artist": "Wired Ant",
+      "durationSec": 187,
+      "bpm": 160,
+      "genre": "bpm_160_165",
+      "tags": [
+        "bpm_160_165",
+        "in_video",
+        "in_podcast",
+        "in_web",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Wired_Ant/38009",
+      "audioUrl": "https://ccmixter.org/content/Wired_Ant/Wired_Ant_-_Jazzy_eve_of_heavy_seas.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5975188,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-43086",
+      "title": "Mistakes were made",
+      "artist": "_ghost",
+      "durationSec": 208,
+      "bpm": 90,
+      "genre": "bpm_090_095",
+      "tags": [
+        "bpm_090_095",
+        "in_video",
+        "attribution",
+        "CBR",
+        "guitar",
+        "bass"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/_ghost/43086",
+      "audioUrl": "https://ccmixter.org/content/_ghost/_ghost_-_Mistakes_were_made.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8327881,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56384",
+      "title": "Haze",
+      "artist": "Zutsuri",
+      "durationSec": 337,
+      "bpm": 97,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_095_100",
+        "preview",
+        "acappella",
+        "attribution",
+        "VBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Zutsuri/56384",
+      "audioUrl": "https://ccmixter.org/content/Zutsuri/Zutsuri_-_Haze_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5390045,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58253",
+      "title": "Tracing My Steps",
+      "artist": "Aussens@iter",
+      "durationSec": 208,
+      "bpm": null,
+      "genre": "amplifiers",
+      "tags": [
+        "amplifiers",
+        "editorial_pick",
+        "in_video",
+        "multiple_formats",
+        "stems",
+        "sample"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/tobias_weber/58253",
+      "audioUrl": "https://ccmixter.org/content/tobias_weber/tobias_weber_-_Tracing_My_Steps_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8324747,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-55576",
+      "title": "Falling (You And I)",
+      "artist": "Siobhan Dakay",
+      "durationSec": 250,
+      "bpm": 65,
+      "genre": "key_of_love",
+      "tags": [
+        "key_of_love",
+        "bpm_065_070",
+        "editorial_pick",
+        "in_video",
+        "multiple_formats",
+        "stems"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SiobhanD/55576",
+      "audioUrl": "https://ccmixter.org/content/SiobhanD/SiobhanD_-_Falling_(You_And_I).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9985089,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56771",
+      "title": "Der Mond ist aufgegangen",
+      "artist": "Siobhan Dakay",
+      "durationSec": 266,
+      "bpm": 72,
+      "genre": "ghost_notes",
+      "tags": [
+        "ghost_notes",
+        "halloween",
+        "bpm_070_075",
+        "editorial_pick",
+        "pell",
+        "acappella"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SiobhanD/56771",
+      "audioUrl": "https://ccmixter.org/content/SiobhanD/SiobhanD_-_Der_Mond_ist_aufgegangen.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10653824,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58223",
+      "title": "Hope is a dangerous thing (amplified)",
+      "artist": "Siobhan Dakay",
+      "durationSec": 304,
+      "bpm": 80,
+      "genre": "amplifiers",
+      "tags": [
+        "amplifiers",
+        "bpm_080_085",
+        "stems",
+        "sample",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/SiobhanD/58223",
+      "audioUrl": "https://ccmixter.org/content/SiobhanD/SiobhanD_-_Hope_is_a_dangerous_thing_(amplified)_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12150117,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-59313",
+      "title": "Monuments",
+      "artist": "Admiral Bob",
+      "durationSec": 207,
+      "bpm": 104,
+      "genre": "hidden_treasures",
+      "tags": [
+        "hidden_treasures",
+        "bpm_100_105",
+        "editorial_pick",
+        "how_i_did_it",
+        "stems",
+        "sample"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/59313",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Monuments.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4964562,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-59384",
+      "title": "Modest Gramz PhD (Piano Improvisation)",
+      "artist": "Doxent Zsigmond",
+      "durationSec": 327,
+      "bpm": null,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "hidden_treasures",
+        "attribution",
+        "VBR",
+        "flac"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/doxent/59384",
+      "audioUrl": "https://ccmixter.org/content/doxent/doxent_-_Modest_Gramz_PhD_(Piano_Improvisation).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8326582,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33238",
+      "title": "Next Spring We Find Ourselves Come Back Around Again",
+      "artist": "AIR_LOMEG",
+      "durationSec": 528,
+      "bpm": 120,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "bpm_120_125",
+        "ambient",
+        "artemisstrong",
+        "downtempo",
+        "electronic"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/AIR_LOMEG/33238",
+      "audioUrl": "https://ccmixter.org/content/AIR_LOMEG/AIR_LOMEG_-_Next_Spring_We_Find_Ourselves_Come_Back_Around_Again.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12682180,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56934",
+      "title": "A Little Christmas Music",
+      "artist": "Lena Orsa",
+      "durationSec": 116,
+      "bpm": 90,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_090_095",
+        "in_video",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/lena_orsa/56934",
+      "audioUrl": "https://ccmixter.org/content/lena_orsa/lena_orsa_-_A_Little_Christmas_Music.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2788046,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58311",
+      "title": "Toddler Guitarist",
+      "artist": "Admiral Bob",
+      "durationSec": 104,
+      "bpm": 64,
+      "genre": "amplifiers",
+      "tags": [
+        "amplifiers",
+        "bpm_060_065",
+        "how_i_did_it",
+        "ccplus_stem",
+        "stems",
+        "sample"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/58311",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Toddler_Guitarist.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2502574,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56686",
+      "title": "Return of the Gucci Ghost",
+      "artist": "Donnie Ozone",
+      "durationSec": 92,
+      "bpm": 90,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "bpm_090_095",
+        "preview"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/donnieozone/56686",
+      "audioUrl": "https://ccmixter.org/content/donnieozone/donnieozone_-_Return_of_the_Gucci_Ghost.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1474604,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33419",
+      "title": "black ops requiem",
+      "artist": "Tomas PhUsIoN",
+      "durationSec": 307,
+      "bpm": 125,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "bpm_125_130",
+        "in_video",
+        "ambient",
+        "classical"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/phusion/33419",
+      "audioUrl": "https://ccmixter.org/content/phusion/phusion_-_black_ops_requiem.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12294313,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-7478",
+      "title": "Wonder Drums",
+      "artist": "PorchCat",
+      "durationSec": 10,
+      "bpm": 96,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_095_100",
+        "stateshirt",
+        "preview",
+        "stems",
+        "key_of_love"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/7478",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Wonder_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 165138,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33259",
+      "title": "SciFi: Forbidden Globe",
+      "artist": "annabloom",
+      "durationSec": 97,
+      "bpm": 100,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "bpm_100_105",
+        "sci_fi",
+        "stems",
+        "synthesizer"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/annabloom/33259",
+      "audioUrl": "https://ccmixter.org/content/annabloom/annabloom_-_SciFi_Forbidden_Globe.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1560286,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33421",
+      "title": "Sphere Song",
+      "artist": "PorchCat",
+      "durationSec": 48,
+      "bpm": null,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "stems",
+        "key_of_love",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/33421",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Sphere_Song.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1157791,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58293",
+      "title": "Singer Bait (funk blues in C)",
+      "artist": "Admiral Bob",
+      "durationSec": 198,
+      "bpm": 120,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_120_125",
+        "preview",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/admiralbob77/58293",
+      "audioUrl": "https://ccmixter.org/content/admiralbob77/admiralbob77_-_Singer_Bait_(funk_blues_in_C).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7922459,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33358",
+      "title": "Solipsage",
+      "artist": "mandthedband",
+      "durationSec": 96,
+      "bpm": 108,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "bpm_105_110",
+        "instrumental",
+        "piano",
+        "stems"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/mandthedband/33358",
+      "audioUrl": "https://ccmixter.org/content/mandthedband/mandthedband_-_Solipsage.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2216583,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56604",
+      "title": "Ghostly Ambience",
+      "artist": "Doxent Zsigmond",
+      "durationSec": 399,
+      "bpm": null,
+      "genre": "ghost_notes",
+      "tags": [
+        "ghost_notes",
+        "halloween",
+        "sample",
+        "stems",
+        "how_i_did_it",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/doxent/56604",
+      "audioUrl": "https://ccmixter.org/content/doxent/doxent_-_Ghostly_Ambience_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8320214,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-23277",
+      "title": "Please Don't Go",
+      "artist": "libraryowl",
+      "durationSec": 20,
+      "bpm": null,
+      "genre": "acappella",
+      "tags": [
+        "acappella",
+        "bluegrass",
+        "blues",
+        "chill",
+        "downtempo",
+        "female_vocals"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/libraryowl/23277",
+      "audioUrl": "https://ccmixter.org/content/libraryowl/libraryowl_-_Please_Don_t_Go_5.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 317568,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47940",
+      "title": "Reggae Stuff Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 138,
+      "bpm": 88,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_085_090",
+        "ccplus_nooptin",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/47940",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_Reggae_Stuff_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2633933,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47941",
+      "title": "Jazz Take Two Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 128,
+      "bpm": 106,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_105_110",
+        "ccplus_nooptin",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/47941",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_Jazz_Take_Two_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2767627,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-5080",
+      "title": "Breaks Pack",
+      "artist": "PorchCat",
+      "durationSec": 18,
+      "bpm": 93.3,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_090_095",
+        "preview",
+        "stems",
+        "key_of_love",
+        "attribution"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/5080",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Breaks_Pack.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 288991,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-49960",
+      "title": "10 stems: 131 BPM RollerTechno",
+      "artist": "canton",
+      "durationSec": 29,
+      "bpm": 131,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_130_135",
+        "attribution",
+        "archive",
+        "zip",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/canton/49960",
+      "audioUrl": "https://ccmixter.org/content/canton/canton_-_10_stems_131_BPM_RollerTechno.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1179733,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56924",
+      "title": "Kitchen Percussion (Nov 2017)",
+      "artist": "Speck",
+      "durationSec": 180,
+      "bpm": 100,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_100_105",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/speck/56924",
+      "audioUrl": "https://ccmixter.org/content/speck/speck_-_Kitchen_Percussion_(Nov_2017)_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5766209,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47935",
+      "title": "Keep Running Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 86,
+      "bpm": 130,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_130_135",
+        "ccplus_nooptin",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/47935",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_Keep_Running_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1881122,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-57003",
+      "title": "The Christmas Waltz",
+      "artist": "Lena Orsa",
+      "durationSec": 93,
+      "bpm": 90,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_090_095",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/lena_orsa/57003",
+      "audioUrl": "https://ccmixter.org/content/lena_orsa/lena_orsa_-_The_Christmas_Waltz.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3742788,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58273",
+      "title": "Baby guitarist",
+      "artist": "Subhashish",
+      "durationSec": 125,
+      "bpm": null,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "how_i_did_it",
+        "attribution",
+        "VBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58273",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Baby_guitarist.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3050804,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56608",
+      "title": "Creaking Door",
+      "artist": "spinningmerkaba",
+      "durationSec": 28,
+      "bpm": null,
+      "genre": "ghost_notes",
+      "tags": [
+        "ghost_notes",
+        "halloween",
+        "sample",
+        "stems",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/56608",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Creaking_Door.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1128535,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56901",
+      "title": "Bell 11,24,2017",
+      "artist": "Speck",
+      "durationSec": 163,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_110_115",
+        "multiple_formats",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/speck/56901",
+      "audioUrl": "https://ccmixter.org/content/speck/speck_-_Bell_11_24_2017.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5233729,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-7201",
+      "title": "Storm Ethnic Drums",
+      "artist": "PorchCat",
+      "durationSec": 13,
+      "bpm": 90,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_090_095",
+        "stateshirt",
+        "preview",
+        "stems",
+        "key_of_love"
+      ],
+      "license": "Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.5/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/7201",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Storm_Ethnic_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 218637,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-22515",
+      "title": "Dreams Drums",
+      "artist": "PorchCat",
+      "durationSec": 18,
+      "bpm": 140,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_140_145",
+        "intentions",
+        "preview",
+        "stems",
+        "key_of_love"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/22515",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Dreams_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 446215,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-41488",
+      "title": "Chill Groove Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 148,
+      "bpm": 155,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_155_160",
+        "attribution",
+        "VBR",
+        "archive",
+        "zip"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/41488",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_Chill_Groove_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3212901,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-41487",
+      "title": "Improv. Jazz Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 86,
+      "bpm": 174,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_170_175",
+        "attribution",
+        "VBR",
+        "archive",
+        "zip"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/41487",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_Improv._Jazz_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1822687,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47937",
+      "title": "Bossa Nova Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 185,
+      "bpm": 150,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_150_155",
+        "ccplus_nooptin",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/47937",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_Bossa_Nova_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3625511,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47938",
+      "title": "House Music Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 112,
+      "bpm": 120,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_120_125",
+        "ccplus_nooptin",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/47938",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_House_Music_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2328583,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47939",
+      "title": "7/8 Beat Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 87,
+      "bpm": 158,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_155_160",
+        "ccplus_nooptin",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/47939",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_7_8_Beat_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1811677,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-59382",
+      "title": "Spring Dew",
+      "artist": "Doxent Zsigmond",
+      "durationSec": 300,
+      "bpm": 120,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "hidden_treasures",
+        "bpm_120_125",
+        "multiple_formats",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/doxent/59382",
+      "audioUrl": "https://ccmixter.org/content/doxent/doxent_-_Spring_Dew.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 9354327,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56607",
+      "title": "Haunting Piano",
+      "artist": "spinningmerkaba",
+      "durationSec": 122,
+      "bpm": null,
+      "genre": "ghost_notes",
+      "tags": [
+        "ghost_notes",
+        "halloween",
+        "sample",
+        "stems",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/56607",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_Haunting_Piano.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4903751,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-30204",
+      "title": "4 Drones, 1 Madness",
+      "artist": "PorchCat",
+      "durationSec": 374,
+      "bpm": null,
+      "genre": "emergence_artlab",
+      "tags": [
+        "emergence_artlab",
+        "sample",
+        "samples",
+        "tubed_by_you",
+        "preview",
+        "stems"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/30204",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_4_Drones_1_Madness.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 8991391,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-47936",
+      "title": "Big Band Multitrack Drums",
+      "artist": "boxboy333",
+      "durationSec": 98,
+      "bpm": 156,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_155_160",
+        "ccplus_nooptin",
+        "attribution",
+        "VBR",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/boxboy333/47936",
+      "audioUrl": "https://ccmixter.org/content/boxboy333/boxboy333_-_Big_Band_Multitrack_Drums.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1929015,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56754",
+      "title": "Songs in Fallen Halls",
+      "artist": "PorchCat",
+      "durationSec": 259,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/56754",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Songs_in_Fallen_Halls.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 6226591,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-57017",
+      "title": "Raindrops Ragtime",
+      "artist": "Lena Orsa",
+      "durationSec": 87,
+      "bpm": 120,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_120_125",
+        "in_video",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/lena_orsa/57017",
+      "audioUrl": "https://ccmixter.org/content/lena_orsa/lena_orsa_-_Raindrops_Ragtime.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3473436,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58271",
+      "title": "Dark choir",
+      "artist": "Subhashish",
+      "durationSec": 91,
+      "bpm": null,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "how_i_did_it",
+        "attribution",
+        "VBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58271",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Dark_choir.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2288221,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58315",
+      "title": "Geek took control of the guitar",
+      "artist": "Subhashish",
+      "durationSec": 151,
+      "bpm": null,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "how_i_did_it",
+        "attribution",
+        "VBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58315",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Geek_took_control_of_the_guitar_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2909671,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33764",
+      "title": "Swamp Zombie Blues",
+      "artist": "XeroCrossing",
+      "durationSec": 80,
+      "bpm": 85,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_085_090",
+        "bass",
+        "bluesy",
+        "distortion",
+        "drums"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/XeroCrossing/33764",
+      "audioUrl": "https://ccmixter.org/content/XeroCrossing/XeroCrossing_-_Swamp_Zombie_Blues.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1285267,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-33833",
+      "title": "Pyrrhic Soundscapes",
+      "artist": "Heuristics Inc.",
+      "durationSec": 46,
+      "bpm": 110,
+      "genre": "tubed_by_you",
+      "tags": [
+        "tubed_by_you",
+        "sample",
+        "bpm_110_115",
+        "stems",
+        "synthesizer",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/heuristicsinc/33833",
+      "audioUrl": "https://ccmixter.org/content/heuristicsinc/heuristicsinc_-_Pyrrhic_Soundscapes.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 645103,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56739",
+      "title": "Lost Beyond",
+      "artist": "PorchCat",
+      "durationSec": 159,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/56739",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Lost_Beyond.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3818519,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56902",
+      "title": "Piano 11,24,2017",
+      "artist": "Speck",
+      "durationSec": 102,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_110_115",
+        "multiple_formats",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/speck/56902",
+      "audioUrl": "https://ccmixter.org/content/speck/speck_-_Piano_11_24_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3263470,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58130",
+      "title": "Coffee in afternoon (revised)",
+      "artist": "Subhashish",
+      "durationSec": 158,
+      "bpm": 137,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_135_140",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58130",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Coffee_in_afternoon_(revised).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5051500,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56605",
+      "title": "gohst layers",
+      "artist": "Stefan Kartenberg",
+      "durationSec": 301,
+      "bpm": null,
+      "genre": "ghost_notes",
+      "tags": [
+        "ghost_notes",
+        "halloween",
+        "sample",
+        "stems",
+        "share_alike",
+        "VBR"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/JeffSpeed68/56605",
+      "audioUrl": "https://ccmixter.org/content/JeffSpeed68/JeffSpeed68_-_gohst_layers.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4827263,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56618",
+      "title": "ILUSMIH 3",
+      "artist": "Darkroom",
+      "durationSec": 57,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "share_alike",
+        "CBR"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/mactonite/56618",
+      "audioUrl": "https://ccmixter.org/content/mactonite/mactonite_-_ILUSMIH_3.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 2296730,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56617",
+      "title": "ILUSMIH 2",
+      "artist": "Darkroom",
+      "durationSec": 84,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "share_alike",
+        "CBR"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/mactonite/56617",
+      "audioUrl": "https://ccmixter.org/content/mactonite/mactonite_-_ILUSMIH_2.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3366706,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58220",
+      "title": "The rich lady's coin purse",
+      "artist": "Subhashish",
+      "durationSec": 12,
+      "bpm": 142,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_140_145",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58220",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_The_rich_lady_s_coin_purse.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 383603,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-59333",
+      "title": "Nickolas Aleksandar Nikolic",
+      "artist": "Nickolas Nikolic",
+      "durationSec": 38,
+      "bpm": 90,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "hidden_treasures",
+        "bpm_090_095",
+        "attribution",
+        "archive"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/nickolasnikolic/59333",
+      "audioUrl": "https://ccmixter.org/content/nickolasnikolic/nickolasnikolic_-_Nickolas_Aleksandar_Nikolic.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1524549,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56609",
+      "title": "Conet Project - Swedish Rhapsody",
+      "artist": "Free_Music_Archive",
+      "durationSec": 52,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "mono"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Free_Music_Archive/56609",
+      "audioUrl": "https://ccmixter.org/content/Free_Music_Archive/Free_Music_Archive_-_Conet_Project_-_Swedish_Rhapsody.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 422871,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56610",
+      "title": "The Waiters - 13 O'Clock In The Morning",
+      "artist": "Free_Music_Archive",
+      "durationSec": 48,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Free_Music_Archive/56610",
+      "audioUrl": "https://ccmixter.org/content/Free_Music_Archive/Free_Music_Archive_-_The_Waiters_-_13_O_Clock_In_The_Morning.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1154340,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-26202",
+      "title": "Groovy Tom Hop",
+      "artist": "PorchCat",
+      "durationSec": 37,
+      "bpm": 100,
+      "genre": "sample",
+      "tags": [
+        "sample",
+        "bpm_100_105",
+        "preview",
+        "stems",
+        "key_of_love",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/26202",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Groovy_Tom_Hop.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 741400,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58195",
+      "title": "Ceramic cowbell",
+      "artist": "Subhashish",
+      "durationSec": 15,
+      "bpm": 141,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_140_145",
+        "how_i_did_it",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58195",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Ceramic_cowbell.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 481406,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56602",
+      "title": "ILUSMIH 1",
+      "artist": "Darkroom",
+      "durationSec": 136,
+      "bpm": null,
+      "genre": "ghost_notes",
+      "tags": [
+        "ghost_notes",
+        "halloween",
+        "sample",
+        "stems",
+        "share_alike",
+        "CBR"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/mactonite/56602",
+      "audioUrl": "https://ccmixter.org/content/mactonite/mactonite_-_ILUSMIH_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5446053,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56670",
+      "title": "Lee Rosevere - The Killer Carpenter (Main Title)",
+      "artist": "Free_Music_Archive",
+      "durationSec": 82,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Free_Music_Archive/56670",
+      "audioUrl": "https://ccmixter.org/content/Free_Music_Archive/Free_Music_Archive_-_Lee_Rosevere_-_The_Killer_Carpenter_(Main_Title).mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3266395,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56738",
+      "title": "Edge of Madness",
+      "artist": "PorchCat",
+      "durationSec": 136,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "share_alike",
+        "CBR"
+      ],
+      "license": "Attribution Share-Alike  (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://ccmixter.org/files/PorchCat/56738",
+      "audioUrl": "https://ccmixter.org/content/PorchCat/PorchCat_-_Edge_of_Madness.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 3263051,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56921",
+      "title": "crash",
+      "artist": "soulthom",
+      "durationSec": 1,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "attribution",
+        "mono",
+        "cymbals"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/soulthom/56921",
+      "audioUrl": "https://ccmixter.org/content/soulthom/soulthom_-_crash.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 34487,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58183",
+      "title": "Piano on weed",
+      "artist": "Subhashish",
+      "durationSec": 49,
+      "bpm": 130,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_130_135",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58183",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Piano_on_weed.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1574787,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58212",
+      "title": "Bang on the metal sipper",
+      "artist": "Subhashish",
+      "durationSec": 22,
+      "bpm": 136,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_135_140",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58212",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Bang_on_the_metal_sipper.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 717135,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58227",
+      "title": "Old performer in new time",
+      "artist": "Subhashish",
+      "durationSec": 34,
+      "bpm": 109,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_105_110",
+        "how_i_did_it",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58227",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Old_performer_in_new_time.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1097478,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58278",
+      "title": "The last sipper and a ring",
+      "artist": "Subhashish",
+      "durationSec": 7,
+      "bpm": 136,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_135_140",
+        "attribution",
+        "VBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58278",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_The_last_sipper_and_a_ring.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 210686,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56629",
+      "title": "Yoshimasu Kamiya - Interlude [Limbo]",
+      "artist": "Free_Music_Archive",
+      "durationSec": 158,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "48k"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Free_Music_Archive/56629",
+      "audioUrl": "https://ccmixter.org/content/Free_Music_Archive/Free_Music_Archive_-_Yoshimasu_Kamiya_-_Interlude_Limbo_.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7634861,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56669",
+      "title": "Lemon Yellow Hayes - Hell Loop, Ween",
+      "artist": "Free_Music_Archive",
+      "durationSec": 125,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Free_Music_Archive/56669",
+      "audioUrl": "https://ccmixter.org/content/Free_Music_Archive/Free_Music_Archive_-_Lemon_Yellow_Hayes_-_Hell_Loop_Ween.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 5007194,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58189",
+      "title": "Tribal instrument's day out",
+      "artist": "Subhashish",
+      "durationSec": 13,
+      "bpm": 134,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_130_135",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58189",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_Tribal_instrument_s_day_out.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 432923,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58194",
+      "title": "What happens in a cop van",
+      "artist": "Subhashish",
+      "durationSec": 60,
+      "bpm": 130,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "bpm_130_135",
+        "attribution",
+        "CBR"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/psubhashish/58194",
+      "audioUrl": "https://ccmixter.org/content/psubhashish/psubhashish_-_What_happens_in_a_cop_van.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 1908319,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-58200",
+      "title": "brushes",
+      "artist": "spinningmerkaba",
+      "durationSec": 184,
+      "bpm": null,
+      "genre": "stems",
+      "tags": [
+        "stems",
+        "sample",
+        "amplifiers",
+        "attribution",
+        "CBR",
+        "percussion"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/jlbrock44/58200",
+      "audioUrl": "https://ccmixter.org/content/jlbrock44/jlbrock44_-_brushes.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 7382249,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56630",
+      "title": "Yoshimasu Kamiya - She Who Wandered: Infatuation",
+      "artist": "Free_Music_Archive",
+      "durationSec": 243,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "48k"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/Free_Music_Archive/56630",
+      "audioUrl": "https://ccmixter.org/content/Free_Music_Archive/Free_Music_Archive_-_Yoshimasu_Kamiya_-_She_Who_Wandered_Infatuation.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11051513,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56919",
+      "title": "scrap",
+      "artist": "soulthom",
+      "durationSec": 1,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "attribution",
+        "mono",
+        "scrap"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/soulthom/56919",
+      "audioUrl": "https://ccmixter.org/content/soulthom/soulthom_-_scrap.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17373,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-57043",
+      "title": "PLSBG - Long BackGround Loop (4 min. x128.39 BPM)",
+      "artist": "tonux_gix",
+      "durationSec": 237,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_125_130",
+        "preview",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/tonux_gix/57043",
+      "audioUrl": "https://ccmixter.org/content/tonux_gix/tonux_gix_-_PLSBG_-_Long_BackGround_Loop_(4_min._x128.39_BPM).flac",
+      "mime": "audio/x-flac",
+      "bytes": 43638349,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-57040",
+      "title": "AXt812 - Synth effects (x128.39 BPM)",
+      "artist": "tonux_gix",
+      "durationSec": 54,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_125_130",
+        "preview",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/tonux_gix/57040",
+      "audioUrl": "https://ccmixter.org/content/tonux_gix/tonux_gix_-_AXt812_-_Synth_effects_(x128.39_BPM).flac",
+      "mime": "audio/x-flac",
+      "bytes": 11821503,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-57041",
+      "title": "AXt813 - Synth effects (x128.39 BPM)",
+      "artist": "tonux_gix",
+      "durationSec": 54,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_125_130",
+        "preview",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/tonux_gix/57041",
+      "audioUrl": "https://ccmixter.org/content/tonux_gix/tonux_gix_-_AXt813_-_Synth_effects_(x128.39_BPM).flac",
+      "mime": "audio/x-flac",
+      "bytes": 9838665,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-57042",
+      "title": "DP1X107X30M - Long Drum Loop (1 min. x128.39 BPM)",
+      "artist": "tonux_gix",
+      "durationSec": 60,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "bpm_125_130",
+        "preview",
+        "attribution"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/tonux_gix/57042",
+      "audioUrl": "https://ccmixter.org/content/tonux_gix/tonux_gix_-_DP1X107X30M_-_Long_Drum_Loop_(1_min._x128.39_BPM).flac",
+      "mime": "audio/x-flac",
+      "bytes": 9420614,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56711",
+      "title": "Weird sax",
+      "artist": "soulthom",
+      "durationSec": 11,
+      "bpm": null,
+      "genre": "halloween",
+      "tags": [
+        "halloween",
+        "ghost_notes",
+        "sample",
+        "stems",
+        "attribution",
+        "saxophone"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/soulthom/56711",
+      "audioUrl": "https://ccmixter.org/content/soulthom/soulthom_-_Weird_sax_1.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 216178,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56916",
+      "title": "grating",
+      "artist": "soulthom",
+      "durationSec": 1,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "attribution",
+        "mono",
+        "grating"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/soulthom/56916",
+      "audioUrl": "https://ccmixter.org/content/soulthom/soulthom_-_grating.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15288,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56917",
+      "title": "grating 2",
+      "artist": "soulthom",
+      "durationSec": 1,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "attribution",
+        "mono",
+        "grating"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/soulthom/56917",
+      "audioUrl": "https://ccmixter.org/content/soulthom/soulthom_-_grating_2.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12419,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56918",
+      "title": "garage",
+      "artist": "soulthom",
+      "durationSec": 1,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "attribution",
+        "mono",
+        "garage"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/soulthom/56918",
+      "audioUrl": "https://ccmixter.org/content/soulthom/soulthom_-_garage.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 22489,
+      "hasStems": false,
+      "stems": []
+    },
+    {
+      "id": "ccm-56920",
+      "title": "crackling",
+      "artist": "soulthom",
+      "durationSec": 16,
+      "bpm": null,
+      "genre": "under_the_tree",
+      "tags": [
+        "under_the_tree",
+        "stems",
+        "sample",
+        "attribution",
+        "mono",
+        "crackling"
+      ],
+      "license": "Attribution (3.0)",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "pageUrl": "https://ccmixter.org/files/soulthom/56920",
+      "audioUrl": "https://ccmixter.org/content/soulthom/soulthom_-_crackling.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 500084,
+      "hasStems": false,
+      "stems": []
+    }
+  ]
+}
