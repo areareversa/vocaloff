@@ -2,7 +2,7 @@
 
 import { Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import { AudioLines, Loader2, FileText, Music2 } from "lucide-react";
 import { auth } from "@/lib/auth";
@@ -13,13 +13,15 @@ export default function UploadPage() {
   const mode = params.get("mode") ?? "upload"; // upload or success
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const titleRef = useRef<HTMLInputElement>(null);
+  const artistRef = useRef<HTMLInputElement>(null);
 
   async function handleCreate(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
     setError(null);
     try {
-      const result = await auth.api.getSession({ headers: {} });
+      const result = await auth.api.getSession({ headers: await (await import("next/headers")).headers() });
       if (!result.user?.id) throw new Error("Não autenticado");
       // Simpan música (sem arquivo real por enquanto)
       const res = await fetch(`${window.location.origin}/api/songs`, {
@@ -29,7 +31,7 @@ export default function UploadPage() {
           ...(await (await import("next/headers")).headers() ?? {}),
         },
         body: JSON.stringify({
-          title: titleRef.current?.value ?? "Nova música",
+          title: titleRef.current?.value ?? "Nova mǧsica",
           artist: artistRef.current?.value ?? "Artista desconhecido",
           durationSec: null,
           bpm: null,
@@ -38,11 +40,11 @@ export default function UploadPage() {
           sourceMime: "audio/mpeg",
         }),
       });
-      if (!res.ok) throw new Error("Falha ao criar música");
+      if (!res.ok) throw new Error("Falha ao criar mǧsica");
       const data = await res.json();
       router.push(`/success?songId=${data.id}&mode=upload`);
     } catch (err: any) {
-      setError(err?.message ?? "Erro ao criar música");
+      setError(err?.message ?? "Erro ao criar mǧsica");
     } finally {
       setLoading(false);
     }
@@ -53,7 +55,7 @@ export default function UploadPage() {
       <Suspense fallback={<div className="h-96 w-full max-w-sm animate-pulse rounded-2xl bg-surface" />}>
         <div className="rounded-2xl border border-border bg-surface p-8 max-w-md w-full">
           <AudioLines className="h-6 w-6 text-primary mb-4 block mx-auto" />
-          <h2 className="text-2xl font-black tracking-tight mb-2">Nova música</h2>
+          <h2 className="text-2xl font-black tracking-tight mb-2">Nova mǧsica</h2>
           <p className="text-muted mb-6">Crie uma entrada na sua biblioteca. O arquivo de áudio será processado depois.</p>
 
           {error && (
@@ -66,7 +68,7 @@ export default function UploadPage() {
             <div>
               <label className="block text-sm font-semibold text-muted mb-1">Título</label>
               <input
-                ref={titleRef => (titleRef.current = titleRef)}
+                ref={titleRef}
                 required
                 value={titleRef.current ?? ""}
                 className="mt-1 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm outline-none focus:border-primary/60"
@@ -76,7 +78,7 @@ export default function UploadPage() {
             <div>
               <label className="block text-sm font-semibold text-muted mb-1">Artista</label>
               <input
-                ref={artistRef => (artistRef.current = artistRef)}
+                ref={artistRef}
                 required
                 value={artistRef.current ?? ""}
                 className="mt-1 w-full rounded-xl border border-border bg-background px-3 py-2.5 text-sm outline-none focus:border-primary/60"
@@ -90,7 +92,7 @@ export default function UploadPage() {
               className="w-full rounded-full bg-primary py-3 text-sm font-bold text-primary-foreground disabled:opacity-60"
             >
               {loading && <Loader2 className="h-4 w-4 animate-spin mr-2" />}
-              Criar música
+              Criar mǧsica
             </button>
 
             <div className="mt-4 text-center text-xs text-muted">

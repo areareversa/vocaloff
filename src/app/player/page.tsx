@@ -3,7 +3,7 @@
 import { Suspense } from "react";
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { AudioLines, SlidersHorizontal, Play, Pause, FastForward, StepForward, FastBackward, StepBackward, Volume2, Speaker, Mute } from "lucide-react";
+import { AudioLines, SlidersHorizontal, Play, Pause, FastForward, StepForward, Volume2, Speaker } from "lucide-react";
 
 export default function PlayerPage() {
   const [src, setSrc] = useState<string | null>(null);
