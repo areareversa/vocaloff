@@ -6279,6 +6279,75 @@
       "bytes": 500084,
       "hasStems": false,
       "stems": []
+    },
+    {
+      "id": "fma-001",
+      "title": "Dreams (Free Stems)",
+      "artist": "JMHBM",
+      "durationSec": 237,
+      "bpm": 92,
+      "genre": "Synth Pop",
+      "tags": [
+        "synth",
+        "pop",
+        "instrumental",
+        "stems"
+      ],
+      "license": "CC0 (CC Zero)",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "pageUrl": "https://freemusicarchive.org/music/beat-mekanik/single/dreams-free-stems/",
+      "audioUrl": "https://freemusicarchive.org/bit.ly/3T3pa1s",
+      "mime": "audio/mpeg",
+      "bytes": null,
+      "hasStems": true,
+      "stems": [
+        {
+          "label": "Unmastered",
+          "url": "",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "Mastered",
+          "url": "",
+          "mime": "audio/mpeg"
+        },
+        {
+          "label": "WAV Stem 1",
+          "url": "",
+          "mime": "audio/wav"
+        },
+        {
+          "label": "WAV Stem 2",
+          "url": "",
+          "mime": "audio/wav"
+        },
+        {
+          "label": "MIDI Stem 1",
+          "url": "",
+          "mime": "audio/midi"
+        }
+      ]
+    },
+    {
+      "id": "oga-001",
+      "title": "Disco Bits",
+      "artist": "iamoneabe",
+      "durationSec": 180,
+      "bpm": 120,
+      "genre": "Disco",
+      "tags": [
+        "disco",
+        "chiptune",
+        "electronic"
+      ],
+      "license": "CC0 (Public Domain)",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "pageUrl": "https://opengameart.org/content/disco-bits",
+      "audioUrl": "",
+      "mime": "audio/mpeg",
+      "bytes": null,
+      "hasStems": false,
+      "stems": []
     }
   ]
 }

@@ -5,6 +5,7 @@ import { desc, eq, inArray } from "drizzle-orm";
 import { auth } from "@/lib/auth";
 import { db, schema } from "@/db";
 import LibraryView, { type LibrarySong } from "@/components/library-view";
+import { NavBar } from "@/components/NavBar";
 
 async function Library() {
   const session = await auth.api.getSession({ headers: await headers() });
@@ -60,6 +61,8 @@ async function Library() {
 }
 
 export default function AppPage() {
+  const session = auth.api.getSession({ headers: {} }) /* will be evaluated at runtime */;
+  // We can't call auth here at top level easily, so we'll pass a flag
   return (
     <Suspense
       fallback={
