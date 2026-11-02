@@ -400,10 +400,11 @@ export default function UploadPage() {
               {ytMeta && (
                 <div className="rounded-xl border border-border bg-background p-3">
                   <div className="flex gap-3">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={ytMeta.thumbnail}
-                      alt=""
+                    <iframe
+                      src={ytMeta.embedUrl}
+                      title={ytMeta.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
                       className="h-20 w-32 rounded-lg object-cover"
                     />
                     <div className="min-w-0">
@@ -414,6 +415,9 @@ export default function UploadPage() {
                   </div>
 
                   <div className="mt-3 rounded-lg border border-dashed border-border p-3">
+                    <p className="text-xs text-muted/80">
+                      {ytMeta.note}
+                    </p>
                     <input
                       ref={ytFileInputRef}
                       type="file"
@@ -431,7 +435,7 @@ export default function UploadPage() {
                       className="flex w-full items-center justify-center gap-2 text-xs font-semibold text-primary"
                     >
                       <Upload className="h-3.5 w-3.5" />
-                      {file ? `Áudio anexado: ${file.name}` : "Anexar o arquivo de áudio desta música"}
+                      {file ? `Áudio anexo: ${file.name}` : "Anexar o arquivo de áudio desta música"}
                     </button>
                   </div>
                 </div>

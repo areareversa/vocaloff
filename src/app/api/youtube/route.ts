@@ -2,10 +2,10 @@ import { NextResponse } from "next/server";
 
 /**
  * Metadados de um vídeo do YouTube via oEmbed (sem API key).
- *
- * Importante: oEmbed devolve título/autor/capa, NÃO devolve áudio. O áudio
- * precisa ser enviado pelo usuário (arquivo do dispositivo) para ser separado.
- * Não fazemos download de áudio do YouTube.
+ * 
+ * Importante: oEmbed devolve título/autor/capa, NÃO devolve áudio.
+ * O áudio precisa ser enviado pelo usuário (arquivo do dispositivo) para ser separado.
+ * NÃO fazemos download de áudio do YouTube por questões de ToS e estabilidade.
  */
 
 function videoId(input: string): string | null {
@@ -75,7 +75,9 @@ export async function GET(request: Request) {
       thumbnail: data.thumbnail_url ?? `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
       embedUrl: `https://www.youtube.com/embed/${id}`,
       audioAvailable: false,
-      note: "O YouTube fornece apenas os metadados. Para separar as faixas, anexe o arquivo de áudio que você já tem.",
+      note:
+        "O YouTube fornece apenas os metadados. Para separar as faixas, é necessário anexar o arquivo de áudio (MP3/WAV) no passo seguinte. " +
+        "Isso permite que você use vídeos do YouTube como referência e combine com seus próprios arquivos de áudio.",
     });
   } catch (err) {
     console.error("oEmbed error:", err);
