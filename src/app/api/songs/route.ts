@@ -31,35 +31,40 @@ function num(value: unknown): number | null {
 }
 
 export async function GET(request: Request) {
-  const session = await auth.api.getSession({ headers: request.headers });
-  if (!session?.user?.id) {
-    return NextResponse.json({ error: "Não autenticado" }, { status: 401 });
+  try {
+    const session = await auth.api.getSession({ headers: request.headers });
+    if (!session?.user?.id) {
+      return NextResponse.json({ error: "Não autenticado" }, { status: 401 });
+    }
+
+    const rows = await db
+      .select()
+      .from(schema.songs)
+      .where(eq(schema.songs.userId, session.user.id))
+      .orderBy(desc(schema.songs.createdAt));
+
+    const stemRows = rows.length
+      ? await db
+          .select()
+          .from(schema.stems)
+          .where(inArray(schema.stems.songId, rows.map((row) => row.id)))
+          .orderBy(schema.stems.position)
+      : [];
+
+    const bySong = new Map<string, typeof stemRows>();
+    for (const stem of stemRows) {
+      const list = bySong.get(stem.songId) ?? [];
+      list.push(stem);
+      bySong.set(stem.songId, list);
+    }
+
+    return NextResponse.json({
+      songs: rows.map((song) => ({ ...song, stems: bySong.get(song.id) ?? [] })),
+    });
+  } catch (err) {
+    console.error("GET /api/songs error:", err);
+    return NextResponse.json({ error: "Erro ao carregar músicas" }, { status: 500 });
   }
-
-  const rows = await db
-    .select()
-    .from(schema.songs)
-    .where(eq(schema.songs.userId, session.user.id))
-    .orderBy(desc(schema.songs.createdAt));
-
-  const stemRows = rows.length
-    ? await db
-        .select()
-        .from(schema.stems)
-        .where(inArray(schema.stems.songId, rows.map((row) => row.id)))
-        .orderBy(schema.stems.position)
-    : [];
-
-  const bySong = new Map<string, typeof stemRows>();
-  for (const stem of stemRows) {
-    const list = bySong.get(stem.songId) ?? [];
-    list.push(stem);
-    bySong.set(stem.songId, list);
-  }
-
-  return NextResponse.json({
-    songs: rows.map((song) => ({ ...song, stems: bySong.get(song.id) ?? [] })),
-  });
 }
 
 export async function POST(request: Request) {
@@ -92,7 +97,7 @@ export async function POST(request: Request) {
       );
     }
 
-    await db.insert(schema.songs).values({
+    const songData = {
       id,
       userId: session.user.id,
       title,
@@ -115,40 +120,73 @@ export async function POST(request: Request) {
       catalogId: text(body.catalogId, 120),
       createdAt: new Date(),
       updatedAt: new Date(),
-    });
+    };
 
-    const stems = Array.isArray(body.stems) ? body.stems : [];
-    const stemRows = stems
-      .slice(0, 24)
-      .map((raw, index) => {
-        const stem = (raw ?? {}) as Record<string, unknown>;
-        const storageKey = text(stem.storagePath, 500);
-        if (!storageKey) return null;
-        const kind = text(stem.kind, 20) ?? "other";
-        return {
-          id: crypto.randomUUID(),
-          songId: id,
-          kind: kind as "other",
-          label: text(stem.label, 80) ?? `Pista ${index + 1}`,
-          storageKey,
-          storageType: STORAGE_TYPES.has(String(stem.storageType))
-            ? String(stem.storageType)
-            : "device",
-          mime: text(stem.mime, 100) ?? "audio/mpeg",
-          durationSec: num(stem.durationSec),
-          bytes: num(stem.bytes),
-          position: index,
-          createdAt: new Date(),
-        } as typeof schema.stems.$inferInsert;
-      })
-      .filter((row): row is typeof schema.stems.$inferInsert => row !== null && 'id' in row);
-
-    if (stemRows.length) {
-      await db.insert(schema.stems).values(stemRows);
+    // Tenta inserir com todas as colunas; se falhar, tenta sem as colunas novas
+    let dbInsertOk = false;
+    try {
+      await db.insert(schema.songs).values(songData);
+      dbInsertOk = true;
+    } catch (err1) {
+      // Segunda tentativa: inserir sem as colunas que podem não existir na DB antiga
+      const fallbackData = {
+        id,
+        userId: session.user.id,
+        title,
+        artist,
+        durationSec: num(body.durationSec),
+        bpm: num(body.bpm),
+        keyNote: text(body.keyNote, 8),
+        coverUrl: text(body.coverUrl, 1000),
+        sourceKey: storagePath ?? sourceUrl ?? id,
+        sourceMime: text(body.sourceMime, 100) ?? "audio/mpeg",
+        sourceBytes: num(body.sourceBytes),
+        status,
+        isPublic: false,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+      try {
+        await db.insert(schema.songs).values(fallbackData);
+        dbInsertOk = true;
+      } catch (err2) {
+        console.error("DB insert failed both attempts:", err1, err2);
+        return NextResponse.json({ error: "Erro ao salvar música no banco" }, { status: 500 });
+      }
     }
 
-    if (stemRows.length) {
-      await db.insert(schema.stems).values(stemRows);
+    // Inserir stems (best-effort - se falhar, a música ainda é salva)
+    const stems = Array.isArray(body.stems) ? body.stems : [];
+    const stemRows: typeof schema.stems.$inferInsert[] = [];
+    for (const raw of stems.slice(0, 24)) {
+      const stem = (raw ?? {}) as Record<string, unknown>;
+      const storageKey = text(stem.storagePath, 500);
+      if (!storageKey) continue;
+      const stemKindVal = text(stem.kind, 20);
+      const effectiveKind = STEM_KINDS.has(stemKindVal as string) ? stemKindVal as StemKind : "other";
+      stemRows.push({
+        id: crypto.randomUUID(),
+        songId: id,
+        kind: effectiveKind,
+        label: text(stem.label, 80) ?? `Pista ${stemRows.length + 1}`,
+        storageKey,
+        storageType: STORAGE_TYPES.has(String(stem.storageType))
+          ? String(stem.storageType)
+          : "device",
+        mime: text(stem.mime, 100) ?? "audio/mpeg",
+        durationSec: num(stem.durationSec),
+        bytes: num(stem.bytes),
+        position: stemRows.length,
+        createdAt: new Date(),
+      });
+    }
+
+    try {
+      if (stemRows.length) {
+        await db.insert(schema.stems).values(stemRows);
+      }
+    } catch (stemErr) {
+      console.warn("Stems insert failed, but song was saved:", stemErr);
     }
 
     return NextResponse.json({ id, status, stems: stemRows.length }, { status: 201 });

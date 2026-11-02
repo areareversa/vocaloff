@@ -1,10 +1,11 @@
 // Migração aditiva e idempotente para a arquitetura local-first.
 // Roda com: node scripts/migrate-local.mjs
+// Garante que as colunas existen antes de inserir dados.
 import fs from "node:fs";
 import { neon } from "@neondatabase/serverless";
 
 const env = fs.readFileSync(new URL("../.env.local", import.meta.url), "utf8");
-const match = env.match(/^DATABASE_URL="?([^"\n]+)"?/m);
+const match = env.match(/^DATABASE_URL="?([^"\\n]+)\"?/m);
 if (!match) throw new Error("DATABASE_URL not found in .env.local");
 const sql = neon(match[1]);
 
@@ -27,6 +28,6 @@ for (const statement of statements) {
 }
 
 const cols = await sql`select column_name from information_schema.columns where table_schema='public' and table_name='songs' order by ordinal_position`;
-console.log("songs:", cols.map((r) => r.column_name).join(", "));
+console.log("songs cols:", cols.map((r) => r.column_name).join(", "));
 const stemCols = await sql`select column_name from information_schema.columns where table_schema='public' and table_name='stems' order by ordinal_position`;
-console.log("stems:", stemCols.map((r) => r.column_name).join(", "));
+console.log("stems cols:", stemCols.map((r) => r.column_name).join(", "));
