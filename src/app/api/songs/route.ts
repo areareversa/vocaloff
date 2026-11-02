@@ -10,7 +10,10 @@ export async function POST(request: Request) {
       headers: await request.headers,
     });
     if (!session?.user?.id) {
-      return NextResponse.json({ error: "Não autenticado" }, { status: 401 });
+      return new NextResponse(JSON.stringify({ error: "Não autenticado" }), {
+        status: 401,
+        headers: { "Content-Type": "application/json" },
+      });
     }
     const body = await request.json();
     const { title, artist, durationSec, bpm, keyNote, coverUrl, sourceMime } = body;
