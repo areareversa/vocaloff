@@ -308,10 +308,15 @@ export default function PublicLibrary({ tracks }: { tracks: PublicTrack[] }) {
                   {track.bpm && (
                     <span className="rounded bg-white/5 px-1.5 py-0.5 text-muted">{track.bpm} BPM</span>
                   )}
-                  {track.hasStems && (
-                    <span className="rounded bg-primary/15 px-1.5 py-0.5 text-primary">
-                      {track.stems.length} pistas
-                    </span>
+                  {track.hasStems ? (
+                    <div className="flex items-center gap-1">
+                      <span className="rounded bg-primary/15 px-1.5 py-0.5 text-primary">
+                        {track.stems.length} pistas separadas
+                      </span>
+                      <span className="text-[10px] text-muted/60">sua bibl.</span>
+                    </div>
+                  ) : (
+                    <span className="text-[10px] text-muted/60">mix completa</span>
                   )}
                   <a
                     href={track.licenseUrl}
