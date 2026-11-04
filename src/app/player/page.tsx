@@ -195,7 +195,7 @@ function PlayerInner() {
   }
 
   const ytId = youtubeId(song?.sourceUrl ?? null);
-  const hasAudio = channels.length > 0 && Object.keys(urls).length === channels.length;
+  const hasAudio = Object.keys(urls).length > 0;
 
   if (loading) {
     return (
@@ -498,6 +498,42 @@ function PlayerInner() {
             </>
           )}
         </div>
+      )}
+
+      {song && songs && songs.length > 1 && (
+        <section className="mt-8">
+          <div className="mb-3 flex items-center justify-between">
+            <h2 className="text-sm font-bold">Faixas do seu dispositivo</h2>
+            <span className="text-[11px] text-muted">
+              {songs.length} {songs.length === 1 ? "faixa" : "faixas"}
+            </span>
+          </div>
+          <ul className="space-y-2">
+            {songs.map((item) => (
+              <li key={item.id}>
+                <Link
+                  href={`/player?id=${item.id}`}
+                  className={cn(
+                    "flex items-center justify-between gap-3 rounded-xl border px-4 py-2.5 text-sm transition-colors",
+                    item.id === song.id
+                      ? "border-primary/60 bg-primary/10"
+                      : "border-border bg-surface hover:border-primary/40",
+                  )}
+                >
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate font-semibold">{item.title}</span>
+                    <span className="block truncate text-xs text-muted">
+                      {item.artist ?? "Artista desconhecido"}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-white/5 px-2 py-0.5 text-[10px] font-bold uppercase text-muted">
+                    {item.stems.length > 0 ? `${item.stems.length} pistas` : "Mix"}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
     </main>
   );
