@@ -177,7 +177,9 @@ export const stems = pgTable(
   },
   (t) => [
     index("stems_song_id_idx").on(t.songId),
-    uniqueIndex("stems_song_kind_idx").on(t.songId, t.kind),
+    // Uma música pode ter várias pistas do mesmo tipo (ex.: duas linhas de piano).
+    // A unicidade é por posição, não por kind.
+    uniqueIndex("stems_song_position_idx").on(t.songId, t.position),
   ],
 );
 

@@ -181,15 +181,25 @@ export async function POST(request: Request) {
       });
     }
 
-    try {
-      if (stemRows.length) {
-        await db.insert(schema.stems).values(stemRows);
+    // Inserção pista a pista: uma pista problemática não derruba as demais.
+    let insertedStems = 0;
+    for (const row of stemRows) {
+      try {
+        const inserted = await db
+          .insert(schema.stems)
+          .values(row)
+          .onConflictDoNothing()
+          .returning({ id: schema.stems.id });
+        insertedStems += inserted.length;
+      } catch (stemErr) {
+        console.warn(`Stem insert failed (${row.label}), but song was saved:`, stemErr);
       }
-    } catch (stemErr) {
-      console.warn("Stems insert failed, but song was saved:", stemErr);
     }
 
-    return NextResponse.json({ id, status, stems: stemRows.length }, { status: 201 });
+    return NextResponse.json(
+      { id, status, stems: insertedStems },
+      { status: 201 },
+    );
   } catch (err) {
     console.error("POST /api/songs error:", err);
     return NextResponse.json({ error: "Erro interno ao salvar a música" }, { status: 500 });

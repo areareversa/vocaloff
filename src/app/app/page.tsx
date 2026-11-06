@@ -6,6 +6,9 @@ import { auth } from "@/lib/auth";
 import { db, schema } from "@/db";
 import LibraryView, { type LibrarySong } from "@/components/library-view";
 import { NavBar } from "@/components/NavBar";
+import { audioProxy, publicTracks, stemKindFromLabel } from "@/lib/public-tracks";
+
+const catalogById = new Map(publicTracks.map((track) => [track.id, track]));
 
 async function Library() {
   const session = await auth.api.getSession({ headers: await headers() });
@@ -32,30 +35,48 @@ async function Library() {
     bySong.set(stem.songId, list);
   }
 
-  const songs: LibrarySong[] = rows.map((song) => ({
-    id: song.id,
-    title: song.title,
-    artist: song.artist,
-    durationSec: song.durationSec,
-    coverUrl: song.coverUrl,
-    status: song.status,
-    storageType: song.storageType,
-    storagePath: song.storagePath,
-    sourceUrl: song.sourceUrl,
-    license: song.license,
-    attribution: song.attribution,
-    catalogId: song.catalogId,
-    sourceBytes: song.sourceBytes,
-    createdAt: song.createdAt.toISOString(),
-    stems: (bySong.get(song.id) ?? []).map((stem) => ({
-      id: stem.id,
-      kind: stem.kind,
-      label: stem.label,
-      storageKey: stem.storageKey,
-      storageType: stem.storageType,
-      bytes: stem.bytes,
-    })),
-  }));
+  const songs: LibrarySong[] = rows.map((song) => {
+    const dbStems = bySong.get(song.id) ?? [];
+    const catalog = song.catalogId ? catalogById.get(song.catalogId) ?? null : null;
+    // Músicas do catálogo salvas sem pistas no banco ainda mostram as pistas
+    // do catálogo público (o player toca direto pelo proxy).
+    const stems: LibrarySong["stems"] =
+      dbStems.length > 0
+        ? dbStems.map((stem) => ({
+            id: stem.id,
+            kind: stem.kind,
+            label: stem.label,
+            storageKey: stem.storageKey,
+            storageType: stem.storageType,
+            bytes: stem.bytes,
+          }))
+        : (catalog?.stems ?? []).map((stem, index) => ({
+            id: `${song.id}-catalog-${index}`,
+            kind: stemKindFromLabel(stem.label),
+            label: stem.label,
+            storageKey: audioProxy(stem.url),
+            storageType: "remote",
+            bytes: null,
+          }));
+
+    return {
+      id: song.id,
+      title: song.title,
+      artist: song.artist,
+      durationSec: song.durationSec,
+      coverUrl: song.coverUrl,
+      status: song.status,
+      storageType: song.storageType,
+      storagePath: song.storagePath,
+      sourceUrl: song.sourceUrl,
+      license: song.license,
+      attribution: song.attribution,
+      catalogId: song.catalogId,
+      sourceBytes: song.sourceBytes,
+      createdAt: song.createdAt.toISOString(),
+      stems,
+    };
+  });
 
   return <LibraryView songs={songs} email={session.user.email} />;
 }

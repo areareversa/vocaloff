@@ -16,12 +16,25 @@ import {
   VolumeX,
   MonitorPlay,
 } from "lucide-react";
+import { ensureFolderPermission, readBlobUrl } from "@/lib/local-store";
 import {
-  ensureFolderPermission,
-  readBlobUrl,
-  songPath,
-} from "@/lib/local-store";
+  audioProxy,
+  publicTracks,
+  stemKindFromLabel,
+} from "@/lib/public-tracks";
 import { cn, formatDuration } from "@/lib/utils";
+
+const catalogById = new Map(publicTracks.map((track) => [track.id, track]));
+
+function isRemotePath(path: string) {
+  return path.startsWith("/api/") || /^https?:\/\//i.test(path);
+}
+
+function stemCount(song: Song) {
+  if (song.stems.length > 0) return song.stems.length;
+  const catalog = song.catalogId ? catalogById.get(song.catalogId) : null;
+  return catalog?.stems.length ?? 0;
+}
 
 interface Stem {
   id: string;
@@ -44,6 +57,7 @@ interface Song {
   sourceUrl: string | null;
   license: string | null;
   attribution: string | null;
+  catalogId: string | null;
   stems: Stem[];
 }
 
@@ -52,6 +66,8 @@ interface Channel {
   label: string;
   kind: string;
   path: string;
+  /** Fonte remota (catálogo público) usada quando o arquivo local não está disponível. */
+  proxy: string | null;
 }
 
 function youtubeId(url: string | null) {
@@ -102,26 +118,56 @@ function PlayerInner() {
 
   const channels: Channel[] = useMemo(() => {
     if (!song) return [];
-    if (song.stems.length > 0) {
-      return song.stems.map((stem) => ({
+    const catalog = song.catalogId ? catalogById.get(song.catalogId) ?? null : null;
+    const catalogStems = catalog?.stems ?? [];
+    const mainProxy = catalog ? audioProxy(catalog.audioUrl) : null;
+
+    // Prefere as pistas locais quando estão completas; senão usa o catálogo público
+    // (áudio servido pelo nosso proxy), o que também conserta músicas antigas
+    // salvas sem pistas.
+    if (song.stems.length > 0 && song.stems.length >= catalogStems.length) {
+      return song.stems.map((stem, index) => ({
         id: stem.id,
         label: stem.label,
         kind: stem.kind,
         path: stem.storageKey,
+        proxy: catalogStems[index] ? audioProxy(catalogStems[index].url) : null,
       }));
     }
+
+    if (catalogStems.length > 0) {
+      return catalogStems.map((stem, index) => ({
+        id: `catalog-${index}`,
+        label: stem.label,
+        kind: stemKindFromLabel(stem.label),
+        path: audioProxy(stem.url),
+        proxy: audioProxy(stem.url),
+      }));
+    }
+
     return song.storagePath
-      ? [{ id: "main", label: "Música completa", kind: "other", path: song.storagePath }]
+      ? [
+          {
+            id: "main",
+            label: "Música completa",
+            kind: "other",
+            path: song.storagePath,
+            proxy: mainProxy,
+          },
+        ]
       : [];
   }, [song]);
+
+  const hasStems = channels.some((channel) => channel.id !== "main");
 
   const resolve = useCallback(async (requestPermission: boolean) => {
     if (!song) return;
     if (requestPermission) await ensureFolderPermission();
     const entries = await Promise.all(
       channels.map(async (channel) => {
+        if (isRemotePath(channel.path)) return [channel.id, channel.path] as const;
         const url = await readBlobUrl(channel.path);
-        return [channel.id, url] as const;
+        return [channel.id, url ?? channel.proxy] as const;
       }),
     );
     const next: Record<string, string> = {};
@@ -284,7 +330,7 @@ function PlayerInner() {
               )}
             </div>
             <span className="rounded-full bg-white/5 px-2.5 py-1 text-[10px] font-bold uppercase text-muted">
-              {song.stems.length > 0 ? `${song.stems.length} pistas` : "Mix completa"}
+              {hasStems ? `${channels.length} pistas` : "Mix completa"}
             </span>
           </div>
 
@@ -385,7 +431,7 @@ function PlayerInner() {
               <div className="mt-6 space-y-2">
                 <div className="flex items-center justify-between">
                   <h2 className="text-sm font-bold">
-                    {song.stems.length > 0 ? "Mixer por pista" : "Pista única"}
+                    {hasStems ? "Mixer por pista" : "Pista única"}
                   </h2>
                   {solo && (
                     <button
@@ -527,7 +573,7 @@ function PlayerInner() {
                     </span>
                   </span>
                   <span className="shrink-0 rounded-full bg-white/5 px-2 py-0.5 text-[10px] font-bold uppercase text-muted">
-                    {item.stems.length > 0 ? `${item.stems.length} pistas` : "Mix"}
+                    {stemCount(item) > 0 ? `${stemCount(item)} pistas` : "Mix"}
                   </span>
                 </Link>
               </li>

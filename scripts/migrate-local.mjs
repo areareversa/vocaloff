@@ -20,6 +20,10 @@ const statements = [
   `CREATE INDEX IF NOT EXISTS songs_catalog_id_idx ON songs (catalog_id)`,
   `ALTER TABLE stems ADD COLUMN IF NOT EXISTS storage_type text NOT NULL DEFAULT 'device'`,
   `ALTER TABLE stems ADD COLUMN IF NOT EXISTS mime text`,
+  // Uma música pode ter mais de uma pista do mesmo tipo (kind).
+  // Troca o índice único (song_id, kind) por (song_id, position).
+  `DROP INDEX IF EXISTS stems_song_kind_idx`,
+  `CREATE UNIQUE INDEX IF NOT EXISTS stems_song_position_idx ON stems (song_id, position)`,
 ];
 
 for (const statement of statements) {
