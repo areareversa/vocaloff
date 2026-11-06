@@ -119,9 +119,10 @@ Usuário fecha e reabre o navegador → áudio ainda está na pasta do dispositi
 
 ### 2.2 Biblioteca Pública
 
-- **225 faixas** Creative Commons do ccMixter (licenças: Attribution, Attribution Share-Alike, CC0, Public Domain)
-- **33 tracks** com stems separados (vocals, bass, drums, piano, guitar, etc.)
-- **192 tracks** mix completa (single audio file)
+- **307 faixas** Creative Commons do ccMixter (licenças: Attribution, Attribution Share-Alike, CC0, Public Domain)
+- **49 tracks** com stems separados (vocals, bass, drums, piano, guitar, etc.)
+- **258 tracks** mix completa (single audio file)
+- **73 faixas de música brasileira/latina** (samba, bossa nova, maracatu, violão, MPB), sendo 14 com stems
 - Interface com:
   - Busca por título, artista, tags
   - Filtro por gênero
@@ -175,7 +176,7 @@ Usuário fecha e reabre o navegador → áudio ainda está na pasta do dispositi
 ### Fluxo 2: Baixando da biblioteca pública
 
 1. Clica em **"Biblioteca pública"** 
-2. Navega/filtra as 225 tracks
+2. Navega/filtra as 307 tracks
 3. Vê badge "Com stems" ou "Mix completa"
 4. Clica em "Baixar e usar"
 5. Se track COM stems: sistema grava cada stem na pasta do dispositivo + salva metadados no banco
