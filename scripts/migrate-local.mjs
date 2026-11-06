@@ -5,7 +5,7 @@ import fs from "node:fs";
 import { neon } from "@neondatabase/serverless";
 
 const env = fs.readFileSync(new URL("../.env.local", import.meta.url), "utf8");
-const match = env.match(/^DATABASE_URL="?([^"\\n]+)\"?/m);
+const match = env.match(/^\s*DATABASE_URL\s*=\s*"?([^"\r\n]+)"?/m);
 if (!match) throw new Error("DATABASE_URL not found in .env.local");
 const sql = neon(match[1]);
 
